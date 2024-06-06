@@ -1,0 +1,373 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="29" passed="29" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-06-06T15:01:58 EDT" name="SauceDemo Automation Suite" finished-at="2024-06-06T15:03:50 EDT" duration-ms="112882">
+    <groups>
+    </groups>
+    <test started-at="2024-06-06T15:01:58 EDT" name="SauceDemo Tests" finished-at="2024-06-06T15:03:50 EDT" duration-ms="112882">
+      <class name="com.saucedemo.testcases.OverviewPageTest">
+        <test-method is-config="true" signature="navigateToOverview()[pri:0, instance:com.saucedemo.testcases.OverviewPageTest@4a94ee4]" started-at="2024-06-06T15:03:13 EDT" name="navigateToOverview" finished-at="2024-06-06T15:03:15 EDT" duration-ms="2498" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigateToOverview -->
+        <test-method signature="verifyOnOverviewPage()[pri:0, instance:com.saucedemo.testcases.OverviewPageTest@4a94ee4]" started-at="2024-06-06T15:03:15 EDT" name="verifyOnOverviewPage" finished-at="2024-06-06T15:03:17 EDT" duration-ms="2030" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyOnOverviewPage -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.saucedemo.testcases.OverviewPageTest@4a94ee4]" started-at="2024-06-06T15:03:17 EDT" name="tearDown" finished-at="2024-06-06T15:03:17 EDT" duration-ms="112" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="navigateToOverview()[pri:0, instance:com.saucedemo.testcases.OverviewPageTest@4a94ee4]" started-at="2024-06-06T15:03:17 EDT" name="navigateToOverview" finished-at="2024-06-06T15:03:20 EDT" duration-ms="2530" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigateToOverview -->
+        <test-method signature="verifyTotalPriceWithoutTax()[pri:1, instance:com.saucedemo.testcases.OverviewPageTest@4a94ee4]" started-at="2024-06-06T15:03:20 EDT" name="verifyTotalPriceWithoutTax" finished-at="2024-06-06T15:03:22 EDT" duration-ms="2094" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyTotalPriceWithoutTax -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.saucedemo.testcases.OverviewPageTest@4a94ee4]" started-at="2024-06-06T15:03:22 EDT" name="tearDown" finished-at="2024-06-06T15:03:22 EDT" duration-ms="131" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="navigateToOverview()[pri:0, instance:com.saucedemo.testcases.OverviewPageTest@4a94ee4]" started-at="2024-06-06T15:03:22 EDT" name="navigateToOverview" finished-at="2024-06-06T15:03:25 EDT" duration-ms="2555" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigateToOverview -->
+        <test-method signature="verifyTax()[pri:2, instance:com.saucedemo.testcases.OverviewPageTest@4a94ee4]" started-at="2024-06-06T15:03:25 EDT" name="verifyTax" finished-at="2024-06-06T15:03:27 EDT" duration-ms="2080" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyTax -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.saucedemo.testcases.OverviewPageTest@4a94ee4]" started-at="2024-06-06T15:03:27 EDT" name="tearDown" finished-at="2024-06-06T15:03:27 EDT" duration-ms="126" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="navigateToOverview()[pri:0, instance:com.saucedemo.testcases.OverviewPageTest@4a94ee4]" started-at="2024-06-06T15:03:27 EDT" name="navigateToOverview" finished-at="2024-06-06T15:03:30 EDT" duration-ms="2555" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigateToOverview -->
+        <test-method signature="verifyFinalTotal()[pri:3, instance:com.saucedemo.testcases.OverviewPageTest@4a94ee4]" started-at="2024-06-06T15:03:30 EDT" name="verifyFinalTotal" finished-at="2024-06-06T15:03:32 EDT" duration-ms="2134" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyFinalTotal -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.saucedemo.testcases.OverviewPageTest@4a94ee4]" started-at="2024-06-06T15:03:32 EDT" name="tearDown" finished-at="2024-06-06T15:03:32 EDT" duration-ms="128" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="navigateToOverview()[pri:0, instance:com.saucedemo.testcases.OverviewPageTest@4a94ee4]" started-at="2024-06-06T15:03:32 EDT" name="navigateToOverview" finished-at="2024-06-06T15:03:34 EDT" duration-ms="2387" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigateToOverview -->
+        <test-method signature="verifyClickingOnCancel()[pri:4, instance:com.saucedemo.testcases.OverviewPageTest@4a94ee4]" started-at="2024-06-06T15:03:34 EDT" name="verifyClickingOnCancel" finished-at="2024-06-06T15:03:36 EDT" duration-ms="2071" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyClickingOnCancel -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.saucedemo.testcases.OverviewPageTest@4a94ee4]" started-at="2024-06-06T15:03:36 EDT" name="tearDown" finished-at="2024-06-06T15:03:36 EDT" duration-ms="125" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="navigateToOverview()[pri:0, instance:com.saucedemo.testcases.OverviewPageTest@4a94ee4]" started-at="2024-06-06T15:03:36 EDT" name="navigateToOverview" finished-at="2024-06-06T15:03:39 EDT" duration-ms="2417" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigateToOverview -->
+        <test-method signature="verifyClickingOnFinish()[pri:5, instance:com.saucedemo.testcases.OverviewPageTest@4a94ee4]" started-at="2024-06-06T15:03:39 EDT" name="verifyClickingOnFinish" finished-at="2024-06-06T15:03:41 EDT" duration-ms="2063" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyClickingOnFinish -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.saucedemo.testcases.OverviewPageTest@4a94ee4]" started-at="2024-06-06T15:03:41 EDT" name="tearDown" finished-at="2024-06-06T15:03:41 EDT" duration-ms="156" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.saucedemo.testcases.OverviewPageTest -->
+      <class name="com.saucedemo.testcases.LoginPageTest">
+        <test-method is-config="true" signature="navigateToLginPage()[pri:0, instance:com.saucedemo.testcases.LoginPageTest@72057ecf]" started-at="2024-06-06T15:01:58 EDT" name="navigateToLginPage" finished-at="2024-06-06T15:02:00 EDT" duration-ms="1931" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigateToLginPage -->
+        <test-method signature="verifyLoginPageTitle()[pri:0, instance:com.saucedemo.testcases.LoginPageTest@72057ecf]" started-at="2024-06-06T15:02:00 EDT" name="verifyLoginPageTitle" finished-at="2024-06-06T15:02:03 EDT" duration-ms="3028" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginPageTitle -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.saucedemo.testcases.LoginPageTest@72057ecf]" started-at="2024-06-06T15:02:03 EDT" name="tearDown" finished-at="2024-06-06T15:02:03 EDT" duration-ms="152" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="navigateToLginPage()[pri:0, instance:com.saucedemo.testcases.LoginPageTest@72057ecf]" started-at="2024-06-06T15:02:03 EDT" name="navigateToLginPage" finished-at="2024-06-06T15:02:04 EDT" duration-ms="1523" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigateToLginPage -->
+        <test-method signature="verifyLogin()[pri:1, instance:com.saucedemo.testcases.LoginPageTest@72057ecf]" started-at="2024-06-06T15:02:04 EDT" name="verifyLogin" finished-at="2024-06-06T15:02:08 EDT" duration-ms="3345" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLogin -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.saucedemo.testcases.LoginPageTest@72057ecf]" started-at="2024-06-06T15:02:08 EDT" name="tearDown" finished-at="2024-06-06T15:02:08 EDT" duration-ms="158" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="navigateToLginPage()[pri:0, instance:com.saucedemo.testcases.LoginPageTest@72057ecf]" started-at="2024-06-06T15:02:08 EDT" name="navigateToLginPage" finished-at="2024-06-06T15:02:09 EDT" duration-ms="1423" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigateToLginPage -->
+        <test-method signature="verifyInvaildLogin()[pri:2, instance:com.saucedemo.testcases.LoginPageTest@72057ecf]" started-at="2024-06-06T15:02:09 EDT" name="verifyInvaildLogin" finished-at="2024-06-06T15:02:12 EDT" duration-ms="3221" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyInvaildLogin -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.saucedemo.testcases.LoginPageTest@72057ecf]" started-at="2024-06-06T15:02:12 EDT" name="tearDown" finished-at="2024-06-06T15:02:13 EDT" duration-ms="174" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.saucedemo.testcases.LoginPageTest -->
+      <class name="com.saucedemo.testcases.CheckoutPageTest">
+        <test-method is-config="true" signature="navigateToCheckout()[pri:0, instance:com.saucedemo.testcases.CheckoutPageTest@7b9a4292]" started-at="2024-06-06T15:02:59 EDT" name="navigateToCheckout" finished-at="2024-06-06T15:03:01 EDT" duration-ms="2186" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigateToCheckout -->
+        <test-method signature="verifyOnCheckoutPage()[pri:0, instance:com.saucedemo.testcases.CheckoutPageTest@7b9a4292]" started-at="2024-06-06T15:03:01 EDT" name="verifyOnCheckoutPage" finished-at="2024-06-06T15:03:03 EDT" duration-ms="2039" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyOnCheckoutPage -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.saucedemo.testcases.CheckoutPageTest@7b9a4292]" started-at="2024-06-06T15:03:03 EDT" name="tearDown" finished-at="2024-06-06T15:03:04 EDT" duration-ms="164" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="navigateToCheckout()[pri:0, instance:com.saucedemo.testcases.CheckoutPageTest@7b9a4292]" started-at="2024-06-06T15:03:04 EDT" name="navigateToCheckout" finished-at="2024-06-06T15:03:06 EDT" duration-ms="2240" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigateToCheckout -->
+        <test-method signature="verifyCancelButton()[pri:1, instance:com.saucedemo.testcases.CheckoutPageTest@7b9a4292]" started-at="2024-06-06T15:03:06 EDT" name="verifyCancelButton" finished-at="2024-06-06T15:03:08 EDT" duration-ms="2106" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyCancelButton -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.saucedemo.testcases.CheckoutPageTest@7b9a4292]" started-at="2024-06-06T15:03:08 EDT" name="tearDown" finished-at="2024-06-06T15:03:08 EDT" duration-ms="156" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="navigateToCheckout()[pri:0, instance:com.saucedemo.testcases.CheckoutPageTest@7b9a4292]" started-at="2024-06-06T15:03:08 EDT" name="navigateToCheckout" finished-at="2024-06-06T15:03:10 EDT" duration-ms="2248" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigateToCheckout -->
+        <test-method signature="verifyContinueCheckoutButton()[pri:2, instance:com.saucedemo.testcases.CheckoutPageTest@7b9a4292]" started-at="2024-06-06T15:03:10 EDT" name="verifyContinueCheckoutButton" finished-at="2024-06-06T15:03:13 EDT" duration-ms="2280" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyContinueCheckoutButton -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.saucedemo.testcases.CheckoutPageTest@7b9a4292]" started-at="2024-06-06T15:03:13 EDT" name="tearDown" finished-at="2024-06-06T15:03:13 EDT" duration-ms="136" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.saucedemo.testcases.CheckoutPageTest -->
+      <class name="com.saucedemo.testcases.HomeProductsPageTest">
+        <test-method is-config="true" signature="navigateToHomePage()[pri:0, instance:com.saucedemo.testcases.HomeProductsPageTest@4fb61f4a]" started-at="2024-06-06T15:02:13 EDT" name="navigateToHomePage" finished-at="2024-06-06T15:02:15 EDT" duration-ms="2038" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigateToHomePage -->
+        <test-method signature="verifyOnHomeProductsPage()[pri:0, instance:com.saucedemo.testcases.HomeProductsPageTest@4fb61f4a]" started-at="2024-06-06T15:02:15 EDT" name="verifyOnHomeProductsPage" finished-at="2024-06-06T15:02:15 EDT" duration-ms="30" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyOnHomeProductsPage -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.saucedemo.testcases.HomeProductsPageTest@4fb61f4a]" started-at="2024-06-06T15:02:15 EDT" name="tearDown" finished-at="2024-06-06T15:02:15 EDT" duration-ms="119" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="navigateToHomePage()[pri:0, instance:com.saucedemo.testcases.HomeProductsPageTest@4fb61f4a]" started-at="2024-06-06T15:02:15 EDT" name="navigateToHomePage" finished-at="2024-06-06T15:02:17 EDT" duration-ms="1820" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigateToHomePage -->
+        <test-method signature="verifyPriceLowToHighDisplayed()[pri:1, instance:com.saucedemo.testcases.HomeProductsPageTest@4fb61f4a]" started-at="2024-06-06T15:02:17 EDT" name="verifyPriceLowToHighDisplayed" finished-at="2024-06-06T15:02:17 EDT" duration-ms="179" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyPriceLowToHighDisplayed -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.saucedemo.testcases.HomeProductsPageTest@4fb61f4a]" started-at="2024-06-06T15:02:17 EDT" name="tearDown" finished-at="2024-06-06T15:02:17 EDT" duration-ms="97" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="navigateToHomePage()[pri:0, instance:com.saucedemo.testcases.HomeProductsPageTest@4fb61f4a]" started-at="2024-06-06T15:02:17 EDT" name="navigateToHomePage" finished-at="2024-06-06T15:02:19 EDT" duration-ms="1760" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigateToHomePage -->
+        <test-method signature="verifyPriceHighToLowDisplayed()[pri:2, instance:com.saucedemo.testcases.HomeProductsPageTest@4fb61f4a]" started-at="2024-06-06T15:02:19 EDT" name="verifyPriceHighToLowDisplayed" finished-at="2024-06-06T15:02:19 EDT" duration-ms="174" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyPriceHighToLowDisplayed -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.saucedemo.testcases.HomeProductsPageTest@4fb61f4a]" started-at="2024-06-06T15:02:19 EDT" name="tearDown" finished-at="2024-06-06T15:02:19 EDT" duration-ms="144" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="navigateToHomePage()[pri:0, instance:com.saucedemo.testcases.HomeProductsPageTest@4fb61f4a]" started-at="2024-06-06T15:02:19 EDT" name="navigateToHomePage" finished-at="2024-06-06T15:02:21 EDT" duration-ms="1830" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigateToHomePage -->
+        <test-method signature="verifyNamesInAscendingOderDisplayed()[pri:3, instance:com.saucedemo.testcases.HomeProductsPageTest@4fb61f4a]" started-at="2024-06-06T15:02:21 EDT" name="verifyNamesInAscendingOderDisplayed" finished-at="2024-06-06T15:02:21 EDT" duration-ms="172" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyNamesInAscendingOderDisplayed -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.saucedemo.testcases.HomeProductsPageTest@4fb61f4a]" started-at="2024-06-06T15:02:21 EDT" name="tearDown" finished-at="2024-06-06T15:02:21 EDT" duration-ms="99" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="navigateToHomePage()[pri:0, instance:com.saucedemo.testcases.HomeProductsPageTest@4fb61f4a]" started-at="2024-06-06T15:02:21 EDT" name="navigateToHomePage" finished-at="2024-06-06T15:02:23 EDT" duration-ms="1964" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigateToHomePage -->
+        <test-method signature="verifyNamesInDescendingOderDisplayed()[pri:4, instance:com.saucedemo.testcases.HomeProductsPageTest@4fb61f4a]" started-at="2024-06-06T15:02:23 EDT" name="verifyNamesInDescendingOderDisplayed" finished-at="2024-06-06T15:02:23 EDT" duration-ms="192" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyNamesInDescendingOderDisplayed -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.saucedemo.testcases.HomeProductsPageTest@4fb61f4a]" started-at="2024-06-06T15:02:23 EDT" name="tearDown" finished-at="2024-06-06T15:02:23 EDT" duration-ms="116" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="navigateToHomePage()[pri:0, instance:com.saucedemo.testcases.HomeProductsPageTest@4fb61f4a]" started-at="2024-06-06T15:02:23 EDT" name="navigateToHomePage" finished-at="2024-06-06T15:02:25 EDT" duration-ms="1994" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigateToHomePage -->
+        <test-method signature="verifyAddToCart()[pri:5, instance:com.saucedemo.testcases.HomeProductsPageTest@4fb61f4a]" started-at="2024-06-06T15:02:25 EDT" name="verifyAddToCart" finished-at="2024-06-06T15:02:26 EDT" duration-ms="283" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyAddToCart -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.saucedemo.testcases.HomeProductsPageTest@4fb61f4a]" started-at="2024-06-06T15:02:26 EDT" name="tearDown" finished-at="2024-06-06T15:02:26 EDT" duration-ms="152" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="navigateToHomePage()[pri:0, instance:com.saucedemo.testcases.HomeProductsPageTest@4fb61f4a]" started-at="2024-06-06T15:02:26 EDT" name="navigateToHomePage" finished-at="2024-06-06T15:02:28 EDT" duration-ms="1922" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigateToHomePage -->
+        <test-method signature="verifyAddingTwoItems()[pri:6, instance:com.saucedemo.testcases.HomeProductsPageTest@4fb61f4a]" started-at="2024-06-06T15:02:28 EDT" name="verifyAddingTwoItems" finished-at="2024-06-06T15:02:28 EDT" duration-ms="288" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyAddingTwoItems -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.saucedemo.testcases.HomeProductsPageTest@4fb61f4a]" started-at="2024-06-06T15:02:28 EDT" name="tearDown" finished-at="2024-06-06T15:02:28 EDT" duration-ms="129" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="navigateToHomePage()[pri:0, instance:com.saucedemo.testcases.HomeProductsPageTest@4fb61f4a]" started-at="2024-06-06T15:02:28 EDT" name="navigateToHomePage" finished-at="2024-06-06T15:02:30 EDT" duration-ms="1857" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigateToHomePage -->
+        <test-method signature="verifyClickingOnProductLink()[pri:7, instance:com.saucedemo.testcases.HomeProductsPageTest@4fb61f4a]" started-at="2024-06-06T15:02:30 EDT" name="verifyClickingOnProductLink" finished-at="2024-06-06T15:02:30 EDT" duration-ms="126" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyClickingOnProductLink -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.saucedemo.testcases.HomeProductsPageTest@4fb61f4a]" started-at="2024-06-06T15:02:30 EDT" name="tearDown" finished-at="2024-06-06T15:02:30 EDT" duration-ms="133" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="navigateToHomePage()[pri:0, instance:com.saucedemo.testcases.HomeProductsPageTest@4fb61f4a]" started-at="2024-06-06T15:02:30 EDT" name="navigateToHomePage" finished-at="2024-06-06T15:02:32 EDT" duration-ms="1803" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigateToHomePage -->
+        <test-method signature="verifyClickingOnCart()[pri:8, instance:com.saucedemo.testcases.HomeProductsPageTest@4fb61f4a]" started-at="2024-06-06T15:02:32 EDT" name="verifyClickingOnCart" finished-at="2024-06-06T15:02:32 EDT" duration-ms="80" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyClickingOnCart -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.saucedemo.testcases.HomeProductsPageTest@4fb61f4a]" started-at="2024-06-06T15:02:32 EDT" name="tearDown" finished-at="2024-06-06T15:02:32 EDT" duration-ms="121" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.saucedemo.testcases.HomeProductsPageTest -->
+      <class name="com.saucedemo.testcases.OrderCompletePageTest">
+        <test-method is-config="true" signature="navigateToFinalPage()[pri:0, instance:com.saucedemo.testcases.OrderCompletePageTest@4cc451f2]" started-at="2024-06-06T15:03:41 EDT" name="navigateToFinalPage" finished-at="2024-06-06T15:03:43 EDT" duration-ms="2469" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigateToFinalPage -->
+        <test-method signature="verifyOnFinalPage()[pri:0, instance:com.saucedemo.testcases.OrderCompletePageTest@4cc451f2]" started-at="2024-06-06T15:03:43 EDT" name="verifyOnFinalPage" finished-at="2024-06-06T15:03:45 EDT" duration-ms="2023" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyOnFinalPage -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.saucedemo.testcases.OrderCompletePageTest@4cc451f2]" started-at="2024-06-06T15:03:45 EDT" name="tearDown" finished-at="2024-06-06T15:03:46 EDT" duration-ms="157" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="navigateToFinalPage()[pri:0, instance:com.saucedemo.testcases.OrderCompletePageTest@4cc451f2]" started-at="2024-06-06T15:03:46 EDT" name="navigateToFinalPage" finished-at="2024-06-06T15:03:48 EDT" duration-ms="2518" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigateToFinalPage -->
+        <test-method signature="verifyClickingOnBackHome()[pri:1, instance:com.saucedemo.testcases.OrderCompletePageTest@4cc451f2]" started-at="2024-06-06T15:03:48 EDT" name="verifyClickingOnBackHome" finished-at="2024-06-06T15:03:50 EDT" duration-ms="2075" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyClickingOnBackHome -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.saucedemo.testcases.OrderCompletePageTest@4cc451f2]" started-at="2024-06-06T15:03:50 EDT" name="tearDown" finished-at="2024-06-06T15:03:50 EDT" duration-ms="149" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.saucedemo.testcases.OrderCompletePageTest -->
+      <class name="com.saucedemo.testcases.ProductDetailPageTest">
+        <test-method is-config="true" signature="navigateToProductDetailPage()[pri:0, instance:com.saucedemo.testcases.ProductDetailPageTest@4fb0f2b9]" started-at="2024-06-06T15:02:32 EDT" name="navigateToProductDetailPage" finished-at="2024-06-06T15:02:34 EDT" duration-ms="2033" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigateToProductDetailPage -->
+        <test-method signature="verifyOnProductDetailsPage()[pri:0, instance:com.saucedemo.testcases.ProductDetailPageTest@4fb0f2b9]" started-at="2024-06-06T15:02:34 EDT" name="verifyOnProductDetailsPage" finished-at="2024-06-06T15:02:37 EDT" duration-ms="3034" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyOnProductDetailsPage -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.saucedemo.testcases.ProductDetailPageTest@4fb0f2b9]" started-at="2024-06-06T15:02:37 EDT" name="tearDown" finished-at="2024-06-06T15:02:38 EDT" duration-ms="141" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="navigateToProductDetailPage()[pri:0, instance:com.saucedemo.testcases.ProductDetailPageTest@4fb0f2b9]" started-at="2024-06-06T15:02:38 EDT" name="navigateToProductDetailPage" finished-at="2024-06-06T15:02:40 EDT" duration-ms="2015" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigateToProductDetailPage -->
+        <test-method signature="verifyAddProductToCart()[pri:1, instance:com.saucedemo.testcases.ProductDetailPageTest@4fb0f2b9]" started-at="2024-06-06T15:02:40 EDT" name="verifyAddProductToCart" finished-at="2024-06-06T15:02:43 EDT" duration-ms="3093" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyAddProductToCart -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.saucedemo.testcases.ProductDetailPageTest@4fb0f2b9]" started-at="2024-06-06T15:02:43 EDT" name="tearDown" finished-at="2024-06-06T15:02:43 EDT" duration-ms="141" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="navigateToProductDetailPage()[pri:0, instance:com.saucedemo.testcases.ProductDetailPageTest@4fb0f2b9]" started-at="2024-06-06T15:02:43 EDT" name="navigateToProductDetailPage" finished-at="2024-06-06T15:02:45 EDT" duration-ms="1941" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigateToProductDetailPage -->
+        <test-method signature="verifyClickingOnCart()[pri:3, instance:com.saucedemo.testcases.ProductDetailPageTest@4fb0f2b9]" started-at="2024-06-06T15:02:45 EDT" name="verifyClickingOnCart" finished-at="2024-06-06T15:02:45 EDT" duration-ms="64" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyClickingOnCart -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.saucedemo.testcases.ProductDetailPageTest@4fb0f2b9]" started-at="2024-06-06T15:02:45 EDT" name="tearDown" finished-at="2024-06-06T15:02:45 EDT" duration-ms="164" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.saucedemo.testcases.ProductDetailPageTest -->
+      <class name="com.saucedemo.testcases.ShoppingCartPageTest">
+        <test-method is-config="true" signature="navigateToCart()[pri:0, instance:com.saucedemo.testcases.ShoppingCartPageTest@79924b]" started-at="2024-06-06T15:02:45 EDT" name="navigateToCart" finished-at="2024-06-06T15:02:47 EDT" duration-ms="2260" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigateToCart -->
+        <test-method signature="verifyOnShoppingCartPage()[pri:0, instance:com.saucedemo.testcases.ShoppingCartPageTest@79924b]" started-at="2024-06-06T15:02:47 EDT" name="verifyOnShoppingCartPage" finished-at="2024-06-06T15:02:49 EDT" duration-ms="2022" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyOnShoppingCartPage -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.saucedemo.testcases.ShoppingCartPageTest@79924b]" started-at="2024-06-06T15:02:49 EDT" name="tearDown" finished-at="2024-06-06T15:02:50 EDT" duration-ms="1088" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="navigateToCart()[pri:0, instance:com.saucedemo.testcases.ShoppingCartPageTest@79924b]" started-at="2024-06-06T15:02:50 EDT" name="navigateToCart" finished-at="2024-06-06T15:02:53 EDT" duration-ms="2211" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigateToCart -->
+        <test-method signature="verifyCheckOutButton()[pri:1, instance:com.saucedemo.testcases.ShoppingCartPageTest@79924b]" started-at="2024-06-06T15:02:53 EDT" name="verifyCheckOutButton" finished-at="2024-06-06T15:02:55 EDT" duration-ms="2066" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyCheckOutButton -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.saucedemo.testcases.ShoppingCartPageTest@79924b]" started-at="2024-06-06T15:02:55 EDT" name="tearDown" finished-at="2024-06-06T15:02:55 EDT" duration-ms="123" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="navigateToCart()[pri:0, instance:com.saucedemo.testcases.ShoppingCartPageTest@79924b]" started-at="2024-06-06T15:02:55 EDT" name="navigateToCart" finished-at="2024-06-06T15:02:57 EDT" duration-ms="2336" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigateToCart -->
+        <test-method signature="verifyContinueShoppingButton()[pri:2, instance:com.saucedemo.testcases.ShoppingCartPageTest@79924b]" started-at="2024-06-06T15:02:57 EDT" name="verifyContinueShoppingButton" finished-at="2024-06-06T15:02:59 EDT" duration-ms="2068" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyContinueShoppingButton -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.saucedemo.testcases.ShoppingCartPageTest@79924b]" started-at="2024-06-06T15:02:59 EDT" name="tearDown" finished-at="2024-06-06T15:02:59 EDT" duration-ms="131" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.saucedemo.testcases.ShoppingCartPageTest -->
+    </test> <!-- SauceDemo Tests -->
+  </suite> <!-- SauceDemo Automation Suite -->
+</testng-results>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [SauceDemo Automation Suite]" guice-stage="DEVELOPMENT" verbose="0">
+  <listeners>
+    <listener class-name="com.saucedemo.listeners.MyListener"/>
+  </listeners>
+  <test thread-count="5" name="SauceDemo Tests(failed)" verbose="0">
+    <classes>
+      <class name="com.saucedemo.testcases.LoginPageTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="verifyInvaildLogin"/>
+          <include name="navigateToLginPage"/>
+        </methods>
+      </class> <!-- com.saucedemo.testcases.LoginPageTest -->
+    </classes>
+  </test> <!-- SauceDemo Tests(failed) -->
+</suite> <!-- Failed suite [SauceDemo Automation Suite] -->

@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: com.saucedemo.testcases.OverviewPageTest
+-------------------------------------------------------------------------------
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 26.61 s -- in com.saucedemo.testcases.OverviewPageTest
