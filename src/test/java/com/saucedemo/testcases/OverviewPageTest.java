@@ -51,28 +51,28 @@ public class OverviewPageTest extends Base {
 	@Test(priority=0)
 	public void verifyOnOverviewPage() throws Throwable
 	{
-		Thread.sleep(2000);
+		//Thread.sleep(2000);
 
 		Assert.assertTrue(overviewPage.isOverviewTitleVisible());
 	}
 	@Test(priority=1)
 	public void verifyTotalPriceWithoutTax() throws Throwable
 	{
-		Thread.sleep(2000);
+		//Thread.sleep(2000);
 
 		Assert.assertEquals(overviewPage.getDisplayedTotal(),overviewPage.getTotalPriceOfItems());
 	}
 	@Test(priority=2)
 	public void verifyTax() throws Throwable
 	{
-		Thread.sleep(2000);
+		//Thread.sleep(2000);
 
 		Assert.assertEquals(overviewPage.getDisplayedTax(),overviewPage.getTax());
 	}
 	@Test(priority=3)
 	public void verifyFinalTotal() throws Throwable
 	{
-		Thread.sleep(2000);
+		//Thread.sleep(2000);
 
 		Assert.assertEquals(overviewPage.getDisplayedFinalTotal(),overviewPage.finalTotalPrice());
 	}
@@ -80,7 +80,7 @@ public class OverviewPageTest extends Base {
 	public void verifyClickingOnCancel() throws Throwable
 	{
 		homeProductsPage=overviewPage.clickOnCancel();
-		Thread.sleep(2000);
+		//Thread.sleep(2000);
 
 		Assert.assertEquals(homeProductsPage.isProductsTitleVisible(),true);
 	}
@@ -88,7 +88,7 @@ public class OverviewPageTest extends Base {
 	public void verifyClickingOnFinish() throws Throwable
 	{
 		orderCompletePage=overviewPage.clickOnFinish();
-		Thread.sleep(2000);
+		//Thread.sleep(2000);
 
 		Assert.assertEquals(orderCompletePage.isCheckoutCompleteTitleVisible(),true);
 	}

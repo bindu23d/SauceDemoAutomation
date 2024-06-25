@@ -5,6 +5,8 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
+import com.saucedemo.actiondriver.ActionDriver;
+
 public class ShoppingCartPage {
 	@FindBy(xpath = "//div[@id='header_container']//span[text()='Your Cart']")
 	private WebElement cartPageTitleText;
@@ -14,31 +16,26 @@ public class ShoppingCartPage {
 	private WebElement checkoutButton;
 	
 	private WebDriver driver;
+	ActionDriver action;
 	
 public ShoppingCartPage(WebDriver wdriver)
 {
 	driver=wdriver;
 	PageFactory.initElements(driver, this);
+	action=new ActionDriver(driver);
 	}
 public boolean isCartPageTitleTextVisible()
 {
-	if (cartPageTitleText.isDisplayed())
-	{
-		return true;
-	}
-	else
-	{
-		return false;
-	}
+	return action.isElementDisplayed(cartPageTitleText);
 }
 public HomeProductsPage clickOnContinueShopping()
 {
-	continueShoppingButton.click();
+	action.clickOnElement(continueShoppingButton);
 	return new HomeProductsPage(driver);
 	}
 public CheckoutPage clickOnCheckout()
 {
-	checkoutButton.click();
+	action.clickOnElement(checkoutButton);
 	return new CheckoutPage(driver);
 	}
 

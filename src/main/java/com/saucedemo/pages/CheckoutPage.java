@@ -1,9 +1,13 @@
 package com.saucedemo.pages;
 
+import java.io.IOException;
+
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
+
+import com.saucedemo.actiondriver.ActionDriver;
 
 public class CheckoutPage {
 	private WebDriver driver;
@@ -19,35 +23,33 @@ public class CheckoutPage {
 	private WebElement cancelButton;
 	@FindBy(id="continue")
 	private WebElement continueButton;
+	ActionDriver action;
 
 	public CheckoutPage(WebDriver wdriver)
 	{
 		driver=wdriver;
 		PageFactory.initElements(driver, this);
+		action=new ActionDriver(driver);
 	}
 
 	public boolean isCheckOutTitleVisible()
 	{
-		if (checkoutTitle.isDisplayed())
-		{
-			return true;
-		}
-		else
-		{
-			return false;
-		}
+		return action.isElementDisplayed(checkoutTitle);
 	}
 	public ShoppingCartPage clickOnCancel()
 	{
-		cancelButton.click();
+		action.clickOnElement(cancelButton);
 		return new ShoppingCartPage(driver);
 	}
-	public OverviewPage clickOnContinue()
+	public OverviewPage clickOnContinue() throws IOException
 	{
-		firstName.sendKeys("Bindu");
-		lastName.sendKeys("Sengar");
-		postalCode.sendKeys("08536");
-		continueButton.click();
+		String uname=action.getDataFromExcel("UserData").getRow(1).getCell(0).getStringCellValue();
+		String lname=action.getDataFromExcel("UserData").getRow(1).getCell(1).toString();
+		String zipCode=action.getDataFromExcel("UserData").getRow(1).getCell(2).toString();
+		action.sendKeysTo(firstName, uname);
+		action.sendKeysTo(lastName,lname);
+		action.sendKeysTo(postalCode, zipCode);
+	    action.clickOnElement(continueButton);
 		return new OverviewPage(driver);
 	}
 }

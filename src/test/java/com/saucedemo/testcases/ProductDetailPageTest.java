@@ -40,7 +40,7 @@ public class ProductDetailPageTest extends Base {
 
 	{
 		Assert.assertEquals(productDetailPage.isBackToProductsButtonDisplayed(),true);
-		Thread.sleep(3000);
+		//Thread.sleep(3000);
 
 	}
 	@Test(priority=1)
@@ -51,7 +51,7 @@ public class ProductDetailPageTest extends Base {
 		productDetailPage.addToCartProduct();
 		Assert.assertEquals(productDetailPage.getCartCount(),1);
 		Assert.assertEquals(productDetailPage.isRemoveProductButtonDisplayed(), true);
-		Thread.sleep(3000);
+		//Thread.sleep(3000);
 	}
 	@Test(priority=2,enabled=false)
 	public void verifyRemoveProduct() throws Throwable
@@ -61,7 +61,7 @@ public class ProductDetailPageTest extends Base {
 		productDetailPage.clickOnRemove();
 		Assert.assertEquals(productDetailPage.getCartCount(),0);
 		Assert.assertEquals(productDetailPage.isAddToCartButtonDisplayed(), true);
-		Thread.sleep(3000);
+		//Thread.sleep(3000);
 
 	}
 	@Test(priority=3)

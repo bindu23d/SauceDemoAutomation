@@ -8,6 +8,7 @@ import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
 
+import com.saucedemo.actiondriver.ActionDriver;
 import com.saucedemo.base.Base;
 
 
@@ -26,6 +27,8 @@ public class LoginPage extends Base {
 	private WebElement homeMenuButton;
 	private WebDriver driver;
 	private Properties prop;
+	ActionDriver action;
+	
 
 	/**
 	 * Initializing elements using Page Factory
@@ -35,6 +38,7 @@ public class LoginPage extends Base {
 		driver=wdriver;
 		System.out.print("driver is here" + driver);
 		PageFactory.initElements(driver, this);
+		action=new ActionDriver(driver);
 		prop=loadConfig();
 	}
 
@@ -48,31 +52,24 @@ public class LoginPage extends Base {
 	 * under Configuration folder,initialized in BaseClass
 	 */
 	public HomeProductsPage login() {
-		
-		userName.sendKeys(prop.getProperty("username"));
-		password.sendKeys(prop.getProperty("password"));
-		loginButton.click();
+		action.sendKeysTo(userName, prop.getProperty("username"));
+		action.sendKeysTo(password, prop.getProperty("password"));
+		action.clickOnElement(loginButton);
 		return new HomeProductsPage(driver);
 		
 		}
 public boolean invalidLogin() {
 		
-	userName.sendKeys(prop.getProperty("invalid_uname"));
-	password.sendKeys(prop.getProperty("invalid_pwd"));
-		loginButton.click();
+	action.sendKeysTo(userName, prop.getProperty("invalid_uname"));
+	action.sendKeysTo(password, prop.getProperty("invalid_pwd"));
+	action.clickOnElement(loginButton);
 		return invalidLoginError.isDisplayed();
 		
 }
 	public boolean isHomeMenuButtonVisible()
 	{
-		if (homeMenuButton.isDisplayed())
-		{
-			return true;
-		}
-		else
-		{
-			return false;
-		}
-	}
+		return action.isElementDisplayed(homeMenuButton);
+		
 
+}
 }

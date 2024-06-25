@@ -7,6 +7,8 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
+import com.saucedemo.actiondriver.ActionDriver;
+
 
 
 public class OverviewPage{
@@ -25,22 +27,17 @@ public class OverviewPage{
 	private WebElement cancelButton;
 	@FindBy(id="finish")
 	private WebElement finishButton;
+	ActionDriver action;
 public OverviewPage(WebDriver wdriver) {
 		
 		driver=wdriver;
 		System.out.print("driver is here" + driver);
 		PageFactory.initElements(driver, this);
+		action=new ActionDriver(driver);
 	}
 public boolean isOverviewTitleVisible()
 {
-	if (overviewTitle.isDisplayed())
-	{
-		return true;
-	}
-	else
-	{
-		return false;
-	}
+	return action.isElementDisplayed(overviewTitle);
 	
 }
 public float getTotalPriceOfItems()
@@ -113,14 +110,14 @@ public float finalTotalPrice()
 	}
 public HomeProductsPage clickOnCancel()
 {
-	cancelButton.click();
+	action.clickOnElement(cancelButton);
 	return new HomeProductsPage(driver);
 	
 			}
 
 public OrderCompletePage clickOnFinish()
 {
-	finishButton.click();
+	action.clickOnElement(finishButton);
 	return new OrderCompletePage(driver);
 	
 			}

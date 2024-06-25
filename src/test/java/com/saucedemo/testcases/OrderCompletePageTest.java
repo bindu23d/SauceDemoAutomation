@@ -52,7 +52,7 @@ public class OrderCompletePageTest extends Base{
 	@Test(priority=0)
 	public void verifyOnFinalPage() throws Throwable
 	{
-		Thread.sleep(2000);
+		//Thread.sleep(2000);
 		
 		Assert.assertTrue(orderCompletePage.isCheckoutCompleteTitleVisible());
 	}
@@ -60,7 +60,7 @@ public class OrderCompletePageTest extends Base{
 	public void verifyClickingOnBackHome() throws Throwable
 	{
 		homeProductsPage=orderCompletePage.clickOnBackHome();
-		Thread.sleep(2000);
+		//Thread.sleep(2000);
 		
 		Assert.assertEquals(homeProductsPage.isProductsTitleVisible(),true);
 	}

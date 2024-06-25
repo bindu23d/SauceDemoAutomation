@@ -32,14 +32,14 @@ public class LoginPageTest extends Base {
 	{
 	Assert.assertEquals(loginPage.getLoginPageTitle(), "Swag Labs","Not on Login page");
 	
-	Thread.sleep(3000);
+	//Thread.sleep(3000);
 	}
 	@Test(priority=1)
 	public void verifyLogin() throws Throwable
 	{
 	loginPage.login();
 	Assert.assertEquals(loginPage.isHomeMenuButtonVisible(),true);
-	Thread.sleep(3000);
+	//Thread.sleep(3000);
 	}
 	@Test(priority=2)
 	public void verifyInvaildLogin() throws Throwable
@@ -47,7 +47,7 @@ public class LoginPageTest extends Base {
 		boolean isActualErrorPresent;
 		isActualErrorPresent=loginPage.invalidLogin();
 	Assert.assertEquals(isActualErrorPresent,true);
-	Thread.sleep(3000);
+	//Thread.sleep(3000);
 	}
 	@AfterMethod
 	public void tearDown(){

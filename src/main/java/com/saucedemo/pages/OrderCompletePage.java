@@ -5,6 +5,8 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
+import com.saucedemo.actiondriver.ActionDriver;
+
 public class OrderCompletePage {
 	
 	private WebDriver driver;
@@ -14,6 +16,7 @@ public class OrderCompletePage {
 	private WebElement backHomeButton;
 	@FindBy(xpath="//div[@id='shopping_cart_container']/a/span[@class='shopping_cart_badge']")
 	private WebElement cartCount;
+	ActionDriver action;
 
 	/**
 	 * Initializing elements using Page Factory
@@ -23,22 +26,16 @@ public class OrderCompletePage {
 		driver=wdriver;
 		System.out.print("driver is here" + driver);
 		PageFactory.initElements(driver, this);
+		action=new ActionDriver(driver);
 	}
 	public boolean isCheckoutCompleteTitleVisible()
 	{
-		if (checkoutCompleteTitle.isDisplayed())
-		{
-			return true;
-		}
-		else
-		{
-			return false;
-		}
+		return action.isElementDisplayed(checkoutCompleteTitle);
 		
 	}
 	public HomeProductsPage clickOnBackHome()
 	{
-		backHomeButton.click();
+		action.clickOnElement(backHomeButton);
 		return new HomeProductsPage(driver);
 		
 				}

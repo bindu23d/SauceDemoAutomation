@@ -48,7 +48,7 @@ public class CheckoutPageTest extends Base {
 	@Test(priority=0)
 	public void verifyOnCheckoutPage() throws Throwable
 	{
-		Thread.sleep(2000);
+		//Thread.sleep(2000);
 
 		Assert.assertTrue(checkoutPage.isCheckOutTitleVisible());
 	}
@@ -56,7 +56,7 @@ public class CheckoutPageTest extends Base {
 	public void verifyCancelButton() throws Throwable
 	{
 		shoppingCartPage=checkoutPage.clickOnCancel();
-		Thread.sleep(2000);
+		//Thread.sleep(2000);
 
 		Assert.assertEquals(shoppingCartPage.isCartPageTitleTextVisible(),true);
 	}
@@ -64,7 +64,7 @@ public class CheckoutPageTest extends Base {
 	public void verifyContinueCheckoutButton() throws Throwable
 	{
 		overviewPage=checkoutPage.clickOnContinue();
-		Thread.sleep(2000);
+		//Thread.sleep(2000);
 		Assert.assertEquals(overviewPage.isOverviewTitleVisible(),true);
 
 

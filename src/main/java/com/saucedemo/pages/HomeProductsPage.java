@@ -11,6 +11,8 @@ import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 import org.openqa.selenium.support.ui.Select;
 
+import com.saucedemo.actiondriver.ActionDriver;
+
 public class HomeProductsPage {
 	@FindBy(xpath="//span[@class='title' and text()='Products']")
 	private WebElement productsTitle;
@@ -32,7 +34,7 @@ public class HomeProductsPage {
 	private WebElement homeMenuButton;
 	private WebDriver driver;
 	private String productName;
-
+    ActionDriver action;
 
 	/** 
 	 * Initializing elements using Page Factory
@@ -42,32 +44,19 @@ public class HomeProductsPage {
 		driver=wdriver;
 		System.out.print("driver is here" + driver);
 		PageFactory.initElements(driver, this);
+		action=new ActionDriver(driver);
 
 
 	}
 	public boolean isProductsTitleVisible()
 	{
-		if (productsTitle.isDisplayed())
-		{
-			return true;
-		}
-		else
-		{
-			return false;
-		}
+		return action.isElementDisplayed(productsTitle);
 	}
 
 
 	public boolean isHomeMenuButtonVisible()
 	{
-		if (homeMenuButton.isDisplayed())
-		{
-			return true;
-		}
-		else
-		{
-			return false;
-		}
+		return action.isElementDisplayed(homeMenuButton);
 	}
 
 
@@ -78,10 +67,7 @@ public class HomeProductsPage {
 	public void selectLowToHighFromDropDown() throws Throwable
 	{
 		String text="Price (low to high)";
-		Select option = new Select(sortProducts);
-		option.selectByVisibleText(text);
-
-
+		action.selectValueFromDropDownByVisibleTxt(sortProducts, text);
 	}
 	public boolean isPriceLowToHighDisplayed() throws Throwable
 	{
@@ -113,11 +99,8 @@ public class HomeProductsPage {
 	public void selectHighToLowPriceFromDropDown() throws Throwable
 	{
 		String text="Price (high to low)";
-		Select option = new Select(sortProducts);
-		option.selectByVisibleText(text);
-
-
-	}
+		action.selectValueFromDropDownByVisibleTxt(sortProducts, text);
+}
 	public boolean isPriceHighToLowDisplayed() throws Throwable
 	{
 		List<Float> actualPriceList = new ArrayList<Float>();
@@ -146,11 +129,8 @@ public class HomeProductsPage {
 	public void selectNamesInAscendingOrder() throws Throwable
 	{
 		String text="Name (A to Z)";
-		Select option = new Select(sortProducts);
-		option.selectByVisibleText(text);
-
-
-	}
+		action.selectValueFromDropDownByVisibleTxt(sortProducts, text);
+}
 	public boolean isNameInAscendingOrderDisplayed() throws Throwable
 	{
 		List<String> actualNameList = new ArrayList<String>();
@@ -181,11 +161,8 @@ public class HomeProductsPage {
 	public void selectNamesInDescendingOrder() throws Throwable
 	{
 		String text="Name (Z to A)";
-		Select option = new Select(sortProducts);
-		option.selectByVisibleText(text);
-
-
-	}
+		action.selectValueFromDropDownByVisibleTxt(sortProducts, text);
+}
 	public boolean isNameInDescendingOrderDisplayed() throws Throwable
 	{
 		List<String> actualNameList = new ArrayList<String>();
@@ -274,13 +251,13 @@ public class HomeProductsPage {
 	}
 	public ShoppingCartPage clickOnProduct()
 	{
-		cartLink.click();
+		action.clickOnElement(cartLink);
 		return new ShoppingCartPage(driver);
 	}
 
 	public ShoppingCartPage clickOnCart()
 	{
-		cartLink.click();
+		action.clickOnElement(cartLink);
 		return new ShoppingCartPage(driver);
 	}
 }

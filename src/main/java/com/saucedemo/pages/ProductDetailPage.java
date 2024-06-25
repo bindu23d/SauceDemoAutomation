@@ -5,6 +5,8 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
+import com.saucedemo.actiondriver.ActionDriver;
+
 public class ProductDetailPage {
 	@FindBy(xpath = "//div[@class='inventory_details']//button[text()='Add to cart']")
 	private WebElement addToCartButton;
@@ -19,34 +21,31 @@ public class ProductDetailPage {
 	@FindBy(xpath="//div[@id='shopping_cart_container']/a/span[@class='shopping_cart_badge']")
 	private WebElement cartCountContainer;
 	private WebDriver driver;
+	ActionDriver action;
 public ProductDetailPage(WebDriver wdriver) {
 		
 		driver=wdriver;
 		System.out.print("driver is here" + driver);
 		PageFactory.initElements(driver, this);
+		action=new ActionDriver(driver);
 	}
 public void addToCartProduct()
 {
-	addToCartButton.click();
+	action.clickOnElement(addToCartButton);
+	
 	}
 public boolean isBackToProductsButtonDisplayed()
 {
-	if(backtoProductsPageButton.isDisplayed())
-	{
-		return true;
-	}
-	else {
-		return false;
-	}
+	return action.isElementDisplayed(backtoProductsPageButton);
 	}
 public HomeProductsPage goBackToProductsPage()
 {
-	backtoProductsPageButton.click();
+	action.clickOnElement(backtoProductsPageButton);
 	return new HomeProductsPage(driver);
 	}
 public ShoppingCartPage clickOnCart()
 {
-	cartLink.click();
+	action.clickOnElement(cartLink);
 	return new ShoppingCartPage(driver);
 	
 	}
@@ -69,14 +68,14 @@ else
 	}
 public boolean isRemoveProductButtonDisplayed()
 {
-	return removeButton.isDisplayed();
+	return action.isElementDisplayed(removeButton);
 	}
 public void clickOnRemove()
 {
-	removeButton.click();
+	action.clickOnElement(removeButton);
 	}
 public boolean isAddToCartButtonDisplayed()
 {
-	return addToCartButton.isDisplayed();
+	return action.isElementDisplayed(addToCartButton);
 	}
 }
