@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="121.515" tests="29" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="97.482" tests="29" errors="0" skipped="0" failures="1">
   <properties>
     <property name="java.specification.version" value="17"/>
     <property name="sun.cpu.isalist" value="amd64"/>
@@ -15,7 +15,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="US"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-17\bin"/>
-    <property name="sun.java.command" value="C:\Users\bindu\AppData\Local\Temp\surefire5227618174538048702\surefirebooter-20240624213205891_3.jar C:\Users\bindu\AppData\Local\Temp\surefire5227618174538048702 2024-06-24T21-32-05_754-jvmRun1 surefire-20240624213205891_1tmp surefire_0-20240624213205891_2tmp"/>
+    <property name="sun.java.command" value="C:\Users\bindu\AppData\Local\Temp\surefire16186990854068585338\surefirebooter-20240701221827807_3.jar C:\Users\bindu\AppData\Local\Temp\surefire16186990854068585338 2024-07-01T22-18-27_631-jvmRun1 surefire-20240701221827807_1tmp surefire_0-20240701221827807_2tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="C:\Users\bindu\eclipse-workspace\MysauceDemoProject\target\test-classes;C:\Users\bindu\eclipse-workspace\MysauceDemoProject\target\classes;C:\Users\bindu\.m2\repository\org\seleniumhq\selenium\selenium-java\4.17.0\selenium-java-4.17.0.jar;C:\Users\bindu\.m2\repository\org\seleniumhq\selenium\selenium-api\4.17.0\selenium-api-4.17.0.jar;C:\Users\bindu\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.17.0\selenium-chrome-driver-4.17.0.jar;C:\Users\bindu\.m2\repository\com\google\auto\service\auto-service-annotations\1.1.1\auto-service-annotations-1.1.1.jar;C:\Users\bindu\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.17.0\selenium-chromium-driver-4.17.0.jar;C:\Users\bindu\.m2\repository\org\seleniumhq\selenium\selenium-json\4.17.0\selenium-json-4.17.0.jar;C:\Users\bindu\.m2\repository\org\seleniumhq\selenium\selenium-manager\4.17.0\selenium-manager-4.17.0.jar;C:\Users\bindu\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v119\4.17.0\selenium-devtools-v119-4.17.0.jar;C:\Users\bindu\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v120\4.17.0\selenium-devtools-v120-4.17.0.jar;C:\Users\bindu\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v121\4.17.0\selenium-devtools-v121-4.17.0.jar;C:\Users\bindu\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v85\4.17.0\selenium-devtools-v85-4.17.0.jar;C:\Users\bindu\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.17.0\selenium-edge-driver-4.17.0.jar;C:\Users\bindu\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.17.0\selenium-firefox-driver-4.17.0.jar;C:\Users\bindu\.m2\repository\org\seleniumhq\selenium\selenium-http\4.17.0\selenium-http-4.17.0.jar;C:\Users\bindu\.m2\repository\dev\failsafe\failsafe\3.3.2\failsafe-3.3.2.jar;C:\Users\bindu\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.17.0\selenium-ie-driver-4.17.0.jar;C:\Users\bindu\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.17.0\selenium-remote-driver-4.17.0.jar;C:\Users\bindu\.m2\repository\com\google\guava\guava\33.0.0-jre\guava-33.0.0-jre.jar;C:\Users\bindu\.m2\repository\com\google\guava\failureaccess\1.0.2\failureaccess-1.0.2.jar;C:\Users\bindu\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\bindu\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\bindu\.m2\repository\org\checkerframework\checker-qual\3.41.0\checker-qual-3.41.0.jar;C:\Users\bindu\.m2\repository\com\google\errorprone\error_prone_annotations\2.23.0\error_prone_annotations-2.23.0.jar;C:\Users\bindu\.m2\repository\com\google\j2objc\j2objc-annotations\2.8\j2objc-annotations-2.8.jar;C:\Users\bindu\.m2\repository\io\opentelemetry\semconv\opentelemetry-semconv\1.23.1-alpha\opentelemetry-semconv-1.23.1-alpha.jar;C:\Users\bindu\.m2\repository\io\opentelemetry\opentelemetry-api\1.34.1\opentelemetry-api-1.34.1.jar;C:\Users\bindu\.m2\repository\io\opentelemetry\opentelemetry-context\1.34.1\opentelemetry-context-1.34.1.jar;C:\Users\bindu\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\1.34.1\opentelemetry-exporter-logging-1.34.1.jar;C:\Users\bindu\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.34.1\opentelemetry-sdk-common-1.34.1.jar;C:\Users\bindu\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.34.1\opentelemetry-sdk-extension-autoconfigure-spi-1.34.1.jar;C:\Users\bindu\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.34.1\opentelemetry-sdk-extension-autoconfigure-1.34.1.jar;C:\Users\bindu\.m2\repository\io\opentelemetry\opentelemetry-api-events\1.34.1-alpha\opentelemetry-api-events-1.34.1-alpha.jar;C:\Users\bindu\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.34.1\opentelemetry-sdk-trace-1.34.1.jar;C:\Users\bindu\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.34.1\opentelemetry-sdk-1.34.1.jar;C:\Users\bindu\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.34.1\opentelemetry-sdk-metrics-1.34.1.jar;C:\Users\bindu\.m2\repository\io\opentelemetry\opentelemetry-extension-incubator\1.34.1-alpha\opentelemetry-extension-incubator-1.34.1-alpha.jar;C:\Users\bindu\.m2\repository\io\opentelemetry\opentelemetry-sdk-logs\1.34.1\opentelemetry-sdk-logs-1.34.1.jar;C:\Users\bindu\.m2\repository\net\bytebuddy\byte-buddy\1.14.11\byte-buddy-1.14.11.jar;C:\Users\bindu\.m2\repository\org\seleniumhq\selenium\selenium-os\4.17.0\selenium-os-4.17.0.jar;C:\Users\bindu\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\bindu\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.17.0\selenium-safari-driver-4.17.0.jar;C:\Users\bindu\.m2\repository\org\seleniumhq\selenium\selenium-support\4.17.0\selenium-support-4.17.0.jar;C:\Users\bindu\.m2\repository\org\testng\testng\7.9.0\testng-7.9.0.jar;C:\Users\bindu\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar;C:\Users\bindu\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar;C:\Users\bindu\.m2\repository\org\webjars\jquery\3.7.1\jquery-3.7.1.jar;C:\Users\bindu\.m2\repository\org\apache\poi\poi\5.2.5\poi-5.2.5.jar;C:\Users\bindu\.m2\repository\commons-codec\commons-codec\1.16.0\commons-codec-1.16.0.jar;C:\Users\bindu\.m2\repository\org\apache\commons\commons-collections4\4.4\commons-collections4-4.4.jar;C:\Users\bindu\.m2\repository\org\apache\commons\commons-math3\3.6.1\commons-math3-3.6.1.jar;C:\Users\bindu\.m2\repository\commons-io\commons-io\2.15.0\commons-io-2.15.0.jar;C:\Users\bindu\.m2\repository\com\zaxxer\SparseBitSet\1.3\SparseBitSet-1.3.jar;C:\Users\bindu\.m2\repository\org\apache\logging\log4j\log4j-api\2.21.1\log4j-api-2.21.1.jar;C:\Users\bindu\.m2\repository\org\apache\poi\poi-ooxml\5.2.5\poi-ooxml-5.2.5.jar;C:\Users\bindu\.m2\repository\org\apache\poi\poi-ooxml-lite\5.2.5\poi-ooxml-lite-5.2.5.jar;C:\Users\bindu\.m2\repository\org\apache\xmlbeans\xmlbeans\5.2.0\xmlbeans-5.2.0.jar;C:\Users\bindu\.m2\repository\org\apache\commons\commons-compress\1.25.0\commons-compress-1.25.0.jar;C:\Users\bindu\.m2\repository\com\github\virtuald\curvesapi\1.08\curvesapi-1.08.jar;C:\Users\bindu\.m2\repository\com\aventstack\extentreports\5.1.1\extentreports-5.1.1.jar;C:\Users\bindu\.m2\repository\io\reactivex\rxjava3\rxjava\3.1.6\rxjava-3.1.6.jar;C:\Users\bindu\.m2\repository\org\reactivestreams\reactive-streams\1.0.4\reactive-streams-1.0.4.jar;C:\Users\bindu\.m2\repository\org\freemarker\freemarker\2.3.32\freemarker-2.3.32.jar;C:\Users\bindu\.m2\repository\org\projectlombok\lombok\1.18.26\lombok-1.18.26.jar;C:\Users\bindu\.m2\repository\com\google\code\gson\gson\2.10.1\gson-2.10.1.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -30,7 +30,7 @@
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="surefire.real.class.path" value="C:\Users\bindu\AppData\Local\Temp\surefire5227618174538048702\surefirebooter-20240624213205891_3.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\bindu\AppData\Local\Temp\surefire16186990854068585338\surefirebooter-20240701221827807_3.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="17.0.9+11-LTS-201"/>
@@ -49,295 +49,337 @@
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
     <property name="sun.os.patch.level" value=""/>
     <property name="native.encoding" value="Cp1252"/>
-    <property name="java.library.path" value="C:\Program Files\Java\jdk-17\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:/Program Files/Java/jdk-17/bin/server;C:/Program Files/Java/jdk-17/bin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Users\bindu\Downloads\apache-maven-3.9.6\bin;C:\Program Files\Git\cmd;C:\Program Files\Java\jdk-17\bin;C:\Users\bindu\AppData\Local\Microsoft\WindowsApps;;C:\Windows\System32;;."/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-17\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:/Program Files/Java/jdk-17/bin/server;C:/Program Files/Java/jdk-17/bin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Users\bindu\Downloads\apache-maven-3.9.6\bin;C:\Program Files\Git\cmd;C:\Program Files\Java\jdk-17\bin;C:\Users\bindu\AppData\Local\Microsoft\WindowsApps;;C:\Windows\system32;;."/>
     <property name="java.vm.info" value="mixed mode, sharing"/>
     <property name="java.vendor" value="Oracle Corporation"/>
     <property name="java.vm.version" value="17.0.9+11-LTS-201"/>
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="61.0"/>
   </properties>
-  <testcase name="verifyLoginPageTitle" classname="com.saucedemo.testcases.LoginPageTest" time="0.038">
+  <testcase name="verifyLoginPageTitle" classname="com.saucedemo.testcases.LoginPageTest" time="0.032">
     <system-out><![CDATA[Browser is  Chrome
-the url ishttps://www.saucedemo.com/driver is ChromeDriver: chrome on windows (f594954c294dd5c20579e9a62bad5edd)driver is hereChromeDriver: chrome on windows (f594954c294dd5c20579e9a62bad5edd)]]></system-out>
+the url ishttps://www.saucedemo.com/driver is ChromeDriver: chrome on windows (911827114f7c711e7a5a86bd6be520a3)driver is hereChromeDriver: chrome on windows (911827114f7c711e7a5a86bd6be520a3)]]></system-out>
     <system-err><![CDATA[SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
 SLF4J: Defaulting to no-operation (NOP) logger implementation
 SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
-Jun 24, 2024 9:32:15 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+Jul 01, 2024 10:18:30 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find CDP implementation matching 126
-Jun 24, 2024 9:32:15 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
-WARNING: Unable to find version of CDP to use for 126.0.6478.116. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.17.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+Jul 01, 2024 10:18:30 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 126.0.6478.127. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.17.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
 ]]></system-err>
   </testcase>
-  <testcase name="verifyLogin" classname="com.saucedemo.testcases.LoginPageTest" time="0.975">
+  <testcase name="verifyLogin" classname="com.saucedemo.testcases.LoginPageTest" time="0.812">
     <system-out><![CDATA[Browser is  Chrome
-the url ishttps://www.saucedemo.com/driver is ChromeDriver: chrome on windows (653eab8a005009f1c3801947db8ac83d)driver is hereChromeDriver: chrome on windows (653eab8a005009f1c3801947db8ac83d)driver is hereChromeDriver: chrome on windows (653eab8a005009f1c3801947db8ac83d)]]></system-out>
-    <system-err><![CDATA[Jun 24, 2024 9:32:19 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+the url ishttps://www.saucedemo.com/driver is ChromeDriver: chrome on windows (fb87834551ac255e6df273b0b132d5fb)driver is hereChromeDriver: chrome on windows (fb87834551ac255e6df273b0b132d5fb)driver is hereChromeDriver: chrome on windows (fb87834551ac255e6df273b0b132d5fb)]]></system-out>
+    <system-err><![CDATA[Jul 01, 2024 10:18:32 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find CDP implementation matching 126
-Jun 24, 2024 9:32:19 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
-WARNING: Unable to find version of CDP to use for 126.0.6478.116. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.17.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+Jul 01, 2024 10:18:32 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 126.0.6478.127. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.17.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
 ]]></system-err>
   </testcase>
-  <testcase name="verifyInvaildLogin" classname="com.saucedemo.testcases.LoginPageTest" time="0.69">
+  <testcase name="verifyInvaildLogin" classname="com.saucedemo.testcases.LoginPageTest" time="0.651">
+    <failure message="expected [false] but found [true]" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: expected [false] but found [true]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1578)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+	at org.testng.Assert.assertEquals(Assert.java:132)
+	at org.testng.Assert.assertEquals(Assert.java:1067)
+	at org.testng.Assert.assertEquals(Assert.java:1031)
+	at org.testng.Assert.assertEquals(Assert.java:1077)
+	at com.saucedemo.testcases.LoginPageTest.verifyInvaildLogin(LoginPageTest.java:49)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:228)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:961)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:201)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:819)
+	at org.testng.TestRunner.run(TestRunner.java:619)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1228)
+	at org.testng.TestNG.runSuites(TestNG.java:1134)
+	at org.testng.TestNG.run(TestNG.java:1101)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+]]></failure>
     <system-out><![CDATA[Browser is  Chrome
-the url ishttps://www.saucedemo.com/driver is ChromeDriver: chrome on windows (e0f98a12934b69c3937fc4e5fcf4e980)driver is hereChromeDriver: chrome on windows (e0f98a12934b69c3937fc4e5fcf4e980)]]></system-out>
-    <system-err><![CDATA[Jun 24, 2024 9:32:22 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+the url ishttps://www.saucedemo.com/driver is ChromeDriver: chrome on windows (abe68b32554557543cc704e90dfb4420)driver is hereChromeDriver: chrome on windows (abe68b32554557543cc704e90dfb4420)]]></system-out>
+    <system-err><![CDATA[Jul 01, 2024 10:18:34 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find CDP implementation matching 126
-Jun 24, 2024 9:32:22 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
-WARNING: Unable to find version of CDP to use for 126.0.6478.116. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.17.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+Jul 01, 2024 10:18:34 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 126.0.6478.127. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.17.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
 ]]></system-err>
   </testcase>
-  <testcase name="verifyOnHomeProductsPage" classname="com.saucedemo.testcases.HomeProductsPageTest" time="0.077">
+  <testcase name="verifyOnHomeProductsPage" classname="com.saucedemo.testcases.HomeProductsPageTest" time="0.063">
     <system-out><![CDATA[Browser is  Chrome
-the url ishttps://www.saucedemo.com/driver is ChromeDriver: chrome on windows (df11184b66477f2589f84f5fad3d39de)driver is hereChromeDriver: chrome on windows (df11184b66477f2589f84f5fad3d39de)driver is hereChromeDriver: chrome on windows (df11184b66477f2589f84f5fad3d39de)]]></system-out>
-    <system-err><![CDATA[Jun 24, 2024 9:32:25 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+the url ishttps://www.saucedemo.com/driver is ChromeDriver: chrome on windows (3ba4fbf571880db413702f3634245a99)driver is hereChromeDriver: chrome on windows (3ba4fbf571880db413702f3634245a99)driver is hereChromeDriver: chrome on windows (3ba4fbf571880db413702f3634245a99)]]></system-out>
+    <system-err><![CDATA[Jul 01, 2024 10:18:37 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find CDP implementation matching 126
-Jun 24, 2024 9:32:25 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
-WARNING: Unable to find version of CDP to use for 126.0.6478.116. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.17.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+Jul 01, 2024 10:18:37 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 126.0.6478.127. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.17.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
 ]]></system-err>
   </testcase>
-  <testcase name="verifyPriceLowToHighDisplayed" classname="com.saucedemo.testcases.HomeProductsPageTest" time="0.387">
+  <testcase name="verifyPriceLowToHighDisplayed" classname="com.saucedemo.testcases.HomeProductsPageTest" time="0.304">
     <system-out><![CDATA[Browser is  Chrome
-the url ishttps://www.saucedemo.com/driver is ChromeDriver: chrome on windows (036fdc64fdcdf1accd392cb048f691f3)driver is hereChromeDriver: chrome on windows (036fdc64fdcdf1accd392cb048f691f3)driver is hereChromeDriver: chrome on windows (036fdc64fdcdf1accd392cb048f691f3)Sorted List is [7.99, 9.99, 15.99, 15.99, 29.99, 49.99]
+the url ishttps://www.saucedemo.com/driver is ChromeDriver: chrome on windows (139367c55adb097976edfd8a15ee55cf)driver is hereChromeDriver: chrome on windows (139367c55adb097976edfd8a15ee55cf)driver is hereChromeDriver: chrome on windows (139367c55adb097976edfd8a15ee55cf)Sorted List is [7.99, 9.99, 15.99, 15.99, 29.99, 49.99]
 Actual List is [7.99, 9.99, 15.99, 15.99, 29.99, 49.99]
 ]]></system-out>
-    <system-err><![CDATA[Jun 24, 2024 9:32:28 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+    <system-err><![CDATA[Jul 01, 2024 10:18:39 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find CDP implementation matching 126
-Jun 24, 2024 9:32:28 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
-WARNING: Unable to find version of CDP to use for 126.0.6478.116. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.17.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+Jul 01, 2024 10:18:39 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 126.0.6478.127. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.17.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
 ]]></system-err>
   </testcase>
-  <testcase name="verifyPriceHighToLowDisplayed" classname="com.saucedemo.testcases.HomeProductsPageTest" time="0.35">
+  <testcase name="verifyPriceHighToLowDisplayed" classname="com.saucedemo.testcases.HomeProductsPageTest" time="0.322">
     <system-out><![CDATA[Browser is  Chrome
-the url ishttps://www.saucedemo.com/driver is ChromeDriver: chrome on windows (f48d9c7279f795a3d41d28aaea04b96a)driver is hereChromeDriver: chrome on windows (f48d9c7279f795a3d41d28aaea04b96a)driver is hereChromeDriver: chrome on windows (f48d9c7279f795a3d41d28aaea04b96a)Sorted List is [49.99, 29.99, 15.99, 15.99, 9.99, 7.99]
+the url ishttps://www.saucedemo.com/driver is ChromeDriver: chrome on windows (325a1c737fe3a54855a34e559fee5af2)driver is hereChromeDriver: chrome on windows (325a1c737fe3a54855a34e559fee5af2)driver is hereChromeDriver: chrome on windows (325a1c737fe3a54855a34e559fee5af2)Sorted List is [49.99, 29.99, 15.99, 15.99, 9.99, 7.99]
 Actual List is [49.99, 29.99, 15.99, 15.99, 9.99, 7.99]
 ]]></system-out>
-    <system-err><![CDATA[Jun 24, 2024 9:32:32 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+    <system-err><![CDATA[Jul 01, 2024 10:18:41 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find CDP implementation matching 126
-Jun 24, 2024 9:32:32 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
-WARNING: Unable to find version of CDP to use for 126.0.6478.116. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.17.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+Jul 01, 2024 10:18:41 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 126.0.6478.127. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.17.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
 ]]></system-err>
   </testcase>
-  <testcase name="verifyNamesInAscendingOderDisplayed" classname="com.saucedemo.testcases.HomeProductsPageTest" time="0.236">
+  <testcase name="verifyNamesInAscendingOderDisplayed" classname="com.saucedemo.testcases.HomeProductsPageTest" time="0.235">
     <system-out><![CDATA[Browser is  Chrome
-the url ishttps://www.saucedemo.com/driver is ChromeDriver: chrome on windows (1f27470117a52ef14de5d4017204e120)driver is hereChromeDriver: chrome on windows (1f27470117a52ef14de5d4017204e120)driver is hereChromeDriver: chrome on windows (1f27470117a52ef14de5d4017204e120)Sorted List is [Sauce Labs Backpack, Sauce Labs Bike Light, Sauce Labs Bolt T-Shirt, Sauce Labs Fleece Jacket, Sauce Labs Onesie, Test.allTheThings() T-Shirt (Red)]
+the url ishttps://www.saucedemo.com/driver is ChromeDriver: chrome on windows (e32828b46938fe50de0524679da2c6a1)driver is hereChromeDriver: chrome on windows (e32828b46938fe50de0524679da2c6a1)driver is hereChromeDriver: chrome on windows (e32828b46938fe50de0524679da2c6a1)Sorted List is [Sauce Labs Backpack, Sauce Labs Bike Light, Sauce Labs Bolt T-Shirt, Sauce Labs Fleece Jacket, Sauce Labs Onesie, Test.allTheThings() T-Shirt (Red)]
 Actual List is [Sauce Labs Backpack, Sauce Labs Bike Light, Sauce Labs Bolt T-Shirt, Sauce Labs Fleece Jacket, Sauce Labs Onesie, Test.allTheThings() T-Shirt (Red)]
 ]]></system-out>
-    <system-err><![CDATA[Jun 24, 2024 9:32:35 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+    <system-err><![CDATA[Jul 01, 2024 10:18:44 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find CDP implementation matching 126
-Jun 24, 2024 9:32:35 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
-WARNING: Unable to find version of CDP to use for 126.0.6478.116. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.17.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+Jul 01, 2024 10:18:44 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 126.0.6478.127. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.17.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
 ]]></system-err>
   </testcase>
-  <testcase name="verifyNamesInDescendingOderDisplayed" classname="com.saucedemo.testcases.HomeProductsPageTest" time="0.386">
+  <testcase name="verifyNamesInDescendingOderDisplayed" classname="com.saucedemo.testcases.HomeProductsPageTest" time="0.274">
     <system-out><![CDATA[Browser is  Chrome
-the url ishttps://www.saucedemo.com/driver is ChromeDriver: chrome on windows (3265f1a1224d65b9a2e13cfd99ea6e4c)driver is hereChromeDriver: chrome on windows (3265f1a1224d65b9a2e13cfd99ea6e4c)driver is hereChromeDriver: chrome on windows (3265f1a1224d65b9a2e13cfd99ea6e4c)Sorted List is [Test.allTheThings() T-Shirt (Red), Sauce Labs Onesie, Sauce Labs Fleece Jacket, Sauce Labs Bolt T-Shirt, Sauce Labs Bike Light, Sauce Labs Backpack]
+the url ishttps://www.saucedemo.com/driver is ChromeDriver: chrome on windows (aef6c458338c9da197286b0d3c09a4bf)driver is hereChromeDriver: chrome on windows (aef6c458338c9da197286b0d3c09a4bf)driver is hereChromeDriver: chrome on windows (aef6c458338c9da197286b0d3c09a4bf)Sorted List is [Test.allTheThings() T-Shirt (Red), Sauce Labs Onesie, Sauce Labs Fleece Jacket, Sauce Labs Bolt T-Shirt, Sauce Labs Bike Light, Sauce Labs Backpack]
 Actual List is [Test.allTheThings() T-Shirt (Red), Sauce Labs Onesie, Sauce Labs Fleece Jacket, Sauce Labs Bolt T-Shirt, Sauce Labs Bike Light, Sauce Labs Backpack]
 ]]></system-out>
-    <system-err><![CDATA[Jun 24, 2024 9:32:38 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+    <system-err><![CDATA[Jul 01, 2024 10:18:47 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find CDP implementation matching 126
-Jun 24, 2024 9:32:38 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
-WARNING: Unable to find version of CDP to use for 126.0.6478.116. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.17.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+Jul 01, 2024 10:18:47 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 126.0.6478.127. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.17.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
 ]]></system-err>
   </testcase>
-  <testcase name="verifyAddToCart" classname="com.saucedemo.testcases.HomeProductsPageTest" time="0.44">
+  <testcase name="verifyAddToCart" classname="com.saucedemo.testcases.HomeProductsPageTest" time="0.328">
     <system-out><![CDATA[Browser is  Chrome
-the url ishttps://www.saucedemo.com/driver is ChromeDriver: chrome on windows (bae44060f8d226f3ac9cd50132ff9d52)driver is hereChromeDriver: chrome on windows (bae44060f8d226f3ac9cd50132ff9d52)driver is hereChromeDriver: chrome on windows (bae44060f8d226f3ac9cd50132ff9d52)]]></system-out>
-    <system-err><![CDATA[Jun 24, 2024 9:32:42 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+the url ishttps://www.saucedemo.com/driver is ChromeDriver: chrome on windows (b3ae952858c390d3b775655d2cac76ff)driver is hereChromeDriver: chrome on windows (b3ae952858c390d3b775655d2cac76ff)driver is hereChromeDriver: chrome on windows (b3ae952858c390d3b775655d2cac76ff)]]></system-out>
+    <system-err><![CDATA[Jul 01, 2024 10:18:49 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find CDP implementation matching 126
-Jun 24, 2024 9:32:42 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
-WARNING: Unable to find version of CDP to use for 126.0.6478.116. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.17.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+Jul 01, 2024 10:18:49 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 126.0.6478.127. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.17.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
 ]]></system-err>
   </testcase>
-  <testcase name="verifyAddingTwoItems" classname="com.saucedemo.testcases.HomeProductsPageTest" time="0.53">
+  <testcase name="verifyAddingTwoItems" classname="com.saucedemo.testcases.HomeProductsPageTest" time="0.505">
     <system-out><![CDATA[Browser is  Chrome
-the url ishttps://www.saucedemo.com/driver is ChromeDriver: chrome on windows (6984adbb29328729beb8f5cd2d67b461)driver is hereChromeDriver: chrome on windows (6984adbb29328729beb8f5cd2d67b461)driver is hereChromeDriver: chrome on windows (6984adbb29328729beb8f5cd2d67b461)]]></system-out>
-    <system-err><![CDATA[Jun 24, 2024 9:32:45 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+the url ishttps://www.saucedemo.com/driver is ChromeDriver: chrome on windows (97042af59685bb03b89860f58b7e9d41)driver is hereChromeDriver: chrome on windows (97042af59685bb03b89860f58b7e9d41)driver is hereChromeDriver: chrome on windows (97042af59685bb03b89860f58b7e9d41)]]></system-out>
+    <system-err><![CDATA[Jul 01, 2024 10:18:52 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find CDP implementation matching 126
-Jun 24, 2024 9:32:45 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
-WARNING: Unable to find version of CDP to use for 126.0.6478.116. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.17.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+Jul 01, 2024 10:18:52 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 126.0.6478.127. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.17.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
 ]]></system-err>
   </testcase>
-  <testcase name="verifyClickingOnProductLink" classname="com.saucedemo.testcases.HomeProductsPageTest" time="0.221">
+  <testcase name="verifyClickingOnProductLink" classname="com.saucedemo.testcases.HomeProductsPageTest" time="0.195">
     <system-out><![CDATA[Browser is  Chrome
-the url ishttps://www.saucedemo.com/driver is ChromeDriver: chrome on windows (328ae42a76912a8f46a7d657c97f2ada)driver is hereChromeDriver: chrome on windows (328ae42a76912a8f46a7d657c97f2ada)driver is hereChromeDriver: chrome on windows (328ae42a76912a8f46a7d657c97f2ada)driver is hereChromeDriver: chrome on windows (328ae42a76912a8f46a7d657c97f2ada)]]></system-out>
-    <system-err><![CDATA[Jun 24, 2024 9:32:50 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+the url ishttps://www.saucedemo.com/driver is ChromeDriver: chrome on windows (78671132dc5b72b668146064003014dc)driver is hereChromeDriver: chrome on windows (78671132dc5b72b668146064003014dc)driver is hereChromeDriver: chrome on windows (78671132dc5b72b668146064003014dc)driver is hereChromeDriver: chrome on windows (78671132dc5b72b668146064003014dc)]]></system-out>
+    <system-err><![CDATA[Jul 01, 2024 10:18:55 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find CDP implementation matching 126
-Jun 24, 2024 9:32:50 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
-WARNING: Unable to find version of CDP to use for 126.0.6478.116. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.17.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+Jul 01, 2024 10:18:55 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 126.0.6478.127. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.17.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
 ]]></system-err>
   </testcase>
-  <testcase name="verifyClickingOnCart" classname="com.saucedemo.testcases.HomeProductsPageTest" time="0.252">
+  <testcase name="verifyClickingOnCart" classname="com.saucedemo.testcases.HomeProductsPageTest" time="0.211">
     <system-out><![CDATA[Browser is  Chrome
-the url ishttps://www.saucedemo.com/driver is ChromeDriver: chrome on windows (389f4ccdca8a3a7c78607a338a1f1b55)driver is hereChromeDriver: chrome on windows (389f4ccdca8a3a7c78607a338a1f1b55)driver is hereChromeDriver: chrome on windows (389f4ccdca8a3a7c78607a338a1f1b55)]]></system-out>
-    <system-err><![CDATA[Jun 24, 2024 9:32:53 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+the url ishttps://www.saucedemo.com/driver is ChromeDriver: chrome on windows (b8f13dc40f69106d23fba849653539fa)driver is hereChromeDriver: chrome on windows (b8f13dc40f69106d23fba849653539fa)driver is hereChromeDriver: chrome on windows (b8f13dc40f69106d23fba849653539fa)]]></system-out>
+    <system-err><![CDATA[Jul 01, 2024 10:18:58 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find CDP implementation matching 126
-Jun 24, 2024 9:32:53 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
-WARNING: Unable to find version of CDP to use for 126.0.6478.116. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.17.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+Jul 01, 2024 10:18:58 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 126.0.6478.127. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.17.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
 ]]></system-err>
   </testcase>
-  <testcase name="verifyOnProductDetailsPage" classname="com.saucedemo.testcases.ProductDetailPageTest" time="0.069">
+  <testcase name="verifyOnProductDetailsPage" classname="com.saucedemo.testcases.ProductDetailPageTest" time="0.081">
     <system-out><![CDATA[Browser is  Chrome
-the url ishttps://www.saucedemo.com/driver is ChromeDriver: chrome on windows (d8ce82301ac444e1a6c3fb4fde860024)driver is hereChromeDriver: chrome on windows (d8ce82301ac444e1a6c3fb4fde860024)driver is hereChromeDriver: chrome on windows (d8ce82301ac444e1a6c3fb4fde860024)driver is hereChromeDriver: chrome on windows (d8ce82301ac444e1a6c3fb4fde860024)]]></system-out>
-    <system-err><![CDATA[Jun 24, 2024 9:32:57 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+the url ishttps://www.saucedemo.com/driver is ChromeDriver: chrome on windows (ad4dc0c671b534e9a0b0d1ad8716ed35)driver is hereChromeDriver: chrome on windows (ad4dc0c671b534e9a0b0d1ad8716ed35)driver is hereChromeDriver: chrome on windows (ad4dc0c671b534e9a0b0d1ad8716ed35)driver is hereChromeDriver: chrome on windows (ad4dc0c671b534e9a0b0d1ad8716ed35)]]></system-out>
+    <system-err><![CDATA[Jul 01, 2024 10:19:00 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find CDP implementation matching 126
-Jun 24, 2024 9:32:57 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
-WARNING: Unable to find version of CDP to use for 126.0.6478.116. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.17.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+Jul 01, 2024 10:19:00 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 126.0.6478.127. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.17.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
 ]]></system-err>
   </testcase>
-  <testcase name="verifyAddProductToCart" classname="com.saucedemo.testcases.ProductDetailPageTest" time="0.245">
+  <testcase name="verifyAddProductToCart" classname="com.saucedemo.testcases.ProductDetailPageTest" time="0.2">
     <system-out><![CDATA[Browser is  Chrome
-the url ishttps://www.saucedemo.com/driver is ChromeDriver: chrome on windows (9e02c3f3acb8abea648a3e990c07a482)driver is hereChromeDriver: chrome on windows (9e02c3f3acb8abea648a3e990c07a482)driver is hereChromeDriver: chrome on windows (9e02c3f3acb8abea648a3e990c07a482)driver is hereChromeDriver: chrome on windows (9e02c3f3acb8abea648a3e990c07a482)Cart Count is 1
+the url ishttps://www.saucedemo.com/driver is ChromeDriver: chrome on windows (c80877f60dd51fb133fe95950502f64e)driver is hereChromeDriver: chrome on windows (c80877f60dd51fb133fe95950502f64e)driver is hereChromeDriver: chrome on windows (c80877f60dd51fb133fe95950502f64e)driver is hereChromeDriver: chrome on windows (c80877f60dd51fb133fe95950502f64e)Cart Count is 1
 ]]></system-out>
-    <system-err><![CDATA[Jun 24, 2024 9:33:00 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+    <system-err><![CDATA[Jul 01, 2024 10:19:03 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find CDP implementation matching 126
-Jun 24, 2024 9:33:00 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
-WARNING: Unable to find version of CDP to use for 126.0.6478.116. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.17.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+Jul 01, 2024 10:19:03 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 126.0.6478.127. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.17.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
 ]]></system-err>
   </testcase>
-  <testcase name="verifyClickingOnCart" classname="com.saucedemo.testcases.ProductDetailPageTest" time="0.185">
+  <testcase name="verifyClickingOnCart" classname="com.saucedemo.testcases.ProductDetailPageTest" time="0.181">
     <system-out><![CDATA[Browser is  Chrome
-the url ishttps://www.saucedemo.com/driver is ChromeDriver: chrome on windows (b05f56507d04d923f6c39511564ddf7a)driver is hereChromeDriver: chrome on windows (b05f56507d04d923f6c39511564ddf7a)driver is hereChromeDriver: chrome on windows (b05f56507d04d923f6c39511564ddf7a)driver is hereChromeDriver: chrome on windows (b05f56507d04d923f6c39511564ddf7a)]]></system-out>
-    <system-err><![CDATA[Jun 24, 2024 9:33:04 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+the url ishttps://www.saucedemo.com/driver is ChromeDriver: chrome on windows (0842c7a84c0b3a37000ed370448b0d12)driver is hereChromeDriver: chrome on windows (0842c7a84c0b3a37000ed370448b0d12)driver is hereChromeDriver: chrome on windows (0842c7a84c0b3a37000ed370448b0d12)driver is hereChromeDriver: chrome on windows (0842c7a84c0b3a37000ed370448b0d12)]]></system-out>
+    <system-err><![CDATA[Jul 01, 2024 10:19:06 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find CDP implementation matching 126
-Jun 24, 2024 9:33:04 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
-WARNING: Unable to find version of CDP to use for 126.0.6478.116. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.17.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+Jul 01, 2024 10:19:06 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 126.0.6478.127. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.17.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
 ]]></system-err>
   </testcase>
-  <testcase name="verifyOnShoppingCartPage" classname="com.saucedemo.testcases.ShoppingCartPageTest" time="0.042">
+  <testcase name="verifyOnShoppingCartPage" classname="com.saucedemo.testcases.ShoppingCartPageTest" time="0.059">
     <system-out><![CDATA[Browser is  Chrome
-the url ishttps://www.saucedemo.com/driver is ChromeDriver: chrome on windows (2831720d8a29adbac1cc3e889760d137)driver is hereChromeDriver: chrome on windows (2831720d8a29adbac1cc3e889760d137)driver is hereChromeDriver: chrome on windows (2831720d8a29adbac1cc3e889760d137)driver is hereChromeDriver: chrome on windows (2831720d8a29adbac1cc3e889760d137)driver is hereChromeDriver: chrome on windows (2831720d8a29adbac1cc3e889760d137)driver is hereChromeDriver: chrome on windows (2831720d8a29adbac1cc3e889760d137)]]></system-out>
-    <system-err><![CDATA[Jun 24, 2024 9:33:07 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+the url ishttps://www.saucedemo.com/driver is ChromeDriver: chrome on windows (b59def11dd335a97068b505ebd12e230)driver is hereChromeDriver: chrome on windows (b59def11dd335a97068b505ebd12e230)driver is hereChromeDriver: chrome on windows (b59def11dd335a97068b505ebd12e230)driver is hereChromeDriver: chrome on windows (b59def11dd335a97068b505ebd12e230)driver is hereChromeDriver: chrome on windows (b59def11dd335a97068b505ebd12e230)driver is hereChromeDriver: chrome on windows (b59def11dd335a97068b505ebd12e230)]]></system-out>
+    <system-err><![CDATA[Jul 01, 2024 10:19:08 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find CDP implementation matching 126
-Jun 24, 2024 9:33:07 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
-WARNING: Unable to find version of CDP to use for 126.0.6478.116. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.17.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+Jul 01, 2024 10:19:08 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 126.0.6478.127. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.17.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
 ]]></system-err>
   </testcase>
-  <testcase name="verifyCheckOutButton" classname="com.saucedemo.testcases.ShoppingCartPageTest" time="0.257">
+  <testcase name="verifyCheckOutButton" classname="com.saucedemo.testcases.ShoppingCartPageTest" time="0.128">
     <system-out><![CDATA[Browser is  Chrome
-the url ishttps://www.saucedemo.com/driver is ChromeDriver: chrome on windows (26bf75621fb14ac5abdf52bdb720546b)driver is hereChromeDriver: chrome on windows (26bf75621fb14ac5abdf52bdb720546b)driver is hereChromeDriver: chrome on windows (26bf75621fb14ac5abdf52bdb720546b)driver is hereChromeDriver: chrome on windows (26bf75621fb14ac5abdf52bdb720546b)driver is hereChromeDriver: chrome on windows (26bf75621fb14ac5abdf52bdb720546b)driver is hereChromeDriver: chrome on windows (26bf75621fb14ac5abdf52bdb720546b)]]></system-out>
-    <system-err><![CDATA[Jun 24, 2024 9:33:11 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+the url ishttps://www.saucedemo.com/driver is ChromeDriver: chrome on windows (20d8c26253caf73d08810543a3043ced)driver is hereChromeDriver: chrome on windows (20d8c26253caf73d08810543a3043ced)driver is hereChromeDriver: chrome on windows (20d8c26253caf73d08810543a3043ced)driver is hereChromeDriver: chrome on windows (20d8c26253caf73d08810543a3043ced)driver is hereChromeDriver: chrome on windows (20d8c26253caf73d08810543a3043ced)driver is hereChromeDriver: chrome on windows (20d8c26253caf73d08810543a3043ced)]]></system-out>
+    <system-err><![CDATA[Jul 01, 2024 10:19:12 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find CDP implementation matching 126
-Jun 24, 2024 9:33:11 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
-WARNING: Unable to find version of CDP to use for 126.0.6478.116. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.17.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+Jul 01, 2024 10:19:12 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 126.0.6478.127. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.17.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
 ]]></system-err>
   </testcase>
-  <testcase name="verifyContinueShoppingButton" classname="com.saucedemo.testcases.ShoppingCartPageTest" time="0.136">
+  <testcase name="verifyContinueShoppingButton" classname="com.saucedemo.testcases.ShoppingCartPageTest" time="0.139">
     <system-out><![CDATA[Browser is  Chrome
-the url ishttps://www.saucedemo.com/driver is ChromeDriver: chrome on windows (98b84e4b32d1bb2a3355c02bc7aa805b)driver is hereChromeDriver: chrome on windows (98b84e4b32d1bb2a3355c02bc7aa805b)driver is hereChromeDriver: chrome on windows (98b84e4b32d1bb2a3355c02bc7aa805b)driver is hereChromeDriver: chrome on windows (98b84e4b32d1bb2a3355c02bc7aa805b)driver is hereChromeDriver: chrome on windows (98b84e4b32d1bb2a3355c02bc7aa805b)driver is hereChromeDriver: chrome on windows (98b84e4b32d1bb2a3355c02bc7aa805b)driver is hereChromeDriver: chrome on windows (98b84e4b32d1bb2a3355c02bc7aa805b)]]></system-out>
-    <system-err><![CDATA[Jun 24, 2024 9:33:15 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+the url ishttps://www.saucedemo.com/driver is ChromeDriver: chrome on windows (aaaa3aa9e9f58714236c32c5948efc2b)driver is hereChromeDriver: chrome on windows (aaaa3aa9e9f58714236c32c5948efc2b)driver is hereChromeDriver: chrome on windows (aaaa3aa9e9f58714236c32c5948efc2b)driver is hereChromeDriver: chrome on windows (aaaa3aa9e9f58714236c32c5948efc2b)driver is hereChromeDriver: chrome on windows (aaaa3aa9e9f58714236c32c5948efc2b)driver is hereChromeDriver: chrome on windows (aaaa3aa9e9f58714236c32c5948efc2b)driver is hereChromeDriver: chrome on windows (aaaa3aa9e9f58714236c32c5948efc2b)]]></system-out>
+    <system-err><![CDATA[Jul 01, 2024 10:19:15 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find CDP implementation matching 126
-Jun 24, 2024 9:33:15 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
-WARNING: Unable to find version of CDP to use for 126.0.6478.116. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.17.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+Jul 01, 2024 10:19:15 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 126.0.6478.127. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.17.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
 ]]></system-err>
   </testcase>
-  <testcase name="verifyOnCheckoutPage" classname="com.saucedemo.testcases.CheckoutPageTest" time="0.039">
+  <testcase name="verifyOnCheckoutPage" classname="com.saucedemo.testcases.CheckoutPageTest" time="0.043">
     <system-out><![CDATA[Browser is  Chrome
-the url ishttps://www.saucedemo.com/driver is ChromeDriver: chrome on windows (984b06993c110b9438b23ce860a76a42)driver is hereChromeDriver: chrome on windows (984b06993c110b9438b23ce860a76a42)driver is hereChromeDriver: chrome on windows (984b06993c110b9438b23ce860a76a42)driver is hereChromeDriver: chrome on windows (984b06993c110b9438b23ce860a76a42)driver is hereChromeDriver: chrome on windows (984b06993c110b9438b23ce860a76a42)driver is hereChromeDriver: chrome on windows (984b06993c110b9438b23ce860a76a42)]]></system-out>
-    <system-err><![CDATA[Jun 24, 2024 9:33:19 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+the url ishttps://www.saucedemo.com/driver is ChromeDriver: chrome on windows (7a6b09d49629c17e6112d3954d31f97a)driver is hereChromeDriver: chrome on windows (7a6b09d49629c17e6112d3954d31f97a)driver is hereChromeDriver: chrome on windows (7a6b09d49629c17e6112d3954d31f97a)driver is hereChromeDriver: chrome on windows (7a6b09d49629c17e6112d3954d31f97a)driver is hereChromeDriver: chrome on windows (7a6b09d49629c17e6112d3954d31f97a)driver is hereChromeDriver: chrome on windows (7a6b09d49629c17e6112d3954d31f97a)]]></system-out>
+    <system-err><![CDATA[Jul 01, 2024 10:19:19 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find CDP implementation matching 126
-Jun 24, 2024 9:33:19 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
-WARNING: Unable to find version of CDP to use for 126.0.6478.116. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.17.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+Jul 01, 2024 10:19:19 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 126.0.6478.127. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.17.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
 ]]></system-err>
   </testcase>
-  <testcase name="verifyCancelButton" classname="com.saucedemo.testcases.CheckoutPageTest" time="0.136">
+  <testcase name="verifyCancelButton" classname="com.saucedemo.testcases.CheckoutPageTest" time="0.113">
     <system-out><![CDATA[Browser is  Chrome
-the url ishttps://www.saucedemo.com/driver is ChromeDriver: chrome on windows (84661fc9a1dc131149ad1b7db1947af1)driver is hereChromeDriver: chrome on windows (84661fc9a1dc131149ad1b7db1947af1)driver is hereChromeDriver: chrome on windows (84661fc9a1dc131149ad1b7db1947af1)driver is hereChromeDriver: chrome on windows (84661fc9a1dc131149ad1b7db1947af1)driver is hereChromeDriver: chrome on windows (84661fc9a1dc131149ad1b7db1947af1)driver is hereChromeDriver: chrome on windows (84661fc9a1dc131149ad1b7db1947af1)]]></system-out>
-    <system-err><![CDATA[Jun 24, 2024 9:33:22 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+the url ishttps://www.saucedemo.com/driver is ChromeDriver: chrome on windows (a1c8fe90f220f618f98b602a21e04351)driver is hereChromeDriver: chrome on windows (a1c8fe90f220f618f98b602a21e04351)driver is hereChromeDriver: chrome on windows (a1c8fe90f220f618f98b602a21e04351)driver is hereChromeDriver: chrome on windows (a1c8fe90f220f618f98b602a21e04351)driver is hereChromeDriver: chrome on windows (a1c8fe90f220f618f98b602a21e04351)driver is hereChromeDriver: chrome on windows (a1c8fe90f220f618f98b602a21e04351)]]></system-out>
+    <system-err><![CDATA[Jul 01, 2024 10:19:22 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find CDP implementation matching 126
-Jun 24, 2024 9:33:22 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
-WARNING: Unable to find version of CDP to use for 126.0.6478.116. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.17.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+Jul 01, 2024 10:19:22 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 126.0.6478.127. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.17.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
 ]]></system-err>
   </testcase>
-  <testcase name="verifyContinueCheckoutButton" classname="com.saucedemo.testcases.CheckoutPageTest" time="1.296">
+  <testcase name="verifyContinueCheckoutButton" classname="com.saucedemo.testcases.CheckoutPageTest" time="1.218">
     <system-out><![CDATA[Browser is  Chrome
-the url ishttps://www.saucedemo.com/driver is ChromeDriver: chrome on windows (93725592e709133a68e21e0d4a9bf5e3)driver is hereChromeDriver: chrome on windows (93725592e709133a68e21e0d4a9bf5e3)driver is hereChromeDriver: chrome on windows (93725592e709133a68e21e0d4a9bf5e3)driver is hereChromeDriver: chrome on windows (93725592e709133a68e21e0d4a9bf5e3)driver is hereChromeDriver: chrome on windows (93725592e709133a68e21e0d4a9bf5e3)driver is hereChromeDriver: chrome on windows (93725592e709133a68e21e0d4a9bf5e3)driver is hereChromeDriver: chrome on windows (93725592e709133a68e21e0d4a9bf5e3)]]></system-out>
-    <system-err><![CDATA[Jun 24, 2024 9:33:26 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+the url ishttps://www.saucedemo.com/driver is ChromeDriver: chrome on windows (9f8dbc886812152085e2709ab530a574)driver is hereChromeDriver: chrome on windows (9f8dbc886812152085e2709ab530a574)driver is hereChromeDriver: chrome on windows (9f8dbc886812152085e2709ab530a574)driver is hereChromeDriver: chrome on windows (9f8dbc886812152085e2709ab530a574)driver is hereChromeDriver: chrome on windows (9f8dbc886812152085e2709ab530a574)driver is hereChromeDriver: chrome on windows (9f8dbc886812152085e2709ab530a574)driver is hereChromeDriver: chrome on windows (9f8dbc886812152085e2709ab530a574)]]></system-out>
+    <system-err><![CDATA[Jul 01, 2024 10:19:26 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find CDP implementation matching 126
-Jun 24, 2024 9:33:26 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
-WARNING: Unable to find version of CDP to use for 126.0.6478.116. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.17.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+Jul 01, 2024 10:19:26 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 126.0.6478.127. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.17.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
 ERROR StatusLogger Log4j2 could not find a logging implementation. Please add log4j-core to the classpath. Using SimpleLogger to log to the console...
 ]]></system-err>
   </testcase>
-  <testcase name="verifyOnOverviewPage" classname="com.saucedemo.testcases.OverviewPageTest" time="0.038">
+  <testcase name="verifyOnOverviewPage" classname="com.saucedemo.testcases.OverviewPageTest" time="0.049">
     <system-out><![CDATA[Browser is  Chrome
-the url ishttps://www.saucedemo.com/driver is ChromeDriver: chrome on windows (c30141cd297b8f578eb2e8afd79f0399)driver is hereChromeDriver: chrome on windows (c30141cd297b8f578eb2e8afd79f0399)driver is hereChromeDriver: chrome on windows (c30141cd297b8f578eb2e8afd79f0399)driver is hereChromeDriver: chrome on windows (c30141cd297b8f578eb2e8afd79f0399)driver is hereChromeDriver: chrome on windows (c30141cd297b8f578eb2e8afd79f0399)driver is hereChromeDriver: chrome on windows (c30141cd297b8f578eb2e8afd79f0399)driver is hereChromeDriver: chrome on windows (c30141cd297b8f578eb2e8afd79f0399)]]></system-out>
-    <system-err><![CDATA[Jun 24, 2024 9:33:31 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+the url ishttps://www.saucedemo.com/driver is ChromeDriver: chrome on windows (4bed9da973d9d91c2c02316efd2d24e9)driver is hereChromeDriver: chrome on windows (4bed9da973d9d91c2c02316efd2d24e9)driver is hereChromeDriver: chrome on windows (4bed9da973d9d91c2c02316efd2d24e9)driver is hereChromeDriver: chrome on windows (4bed9da973d9d91c2c02316efd2d24e9)driver is hereChromeDriver: chrome on windows (4bed9da973d9d91c2c02316efd2d24e9)driver is hereChromeDriver: chrome on windows (4bed9da973d9d91c2c02316efd2d24e9)driver is hereChromeDriver: chrome on windows (4bed9da973d9d91c2c02316efd2d24e9)]]></system-out>
+    <system-err><![CDATA[Jul 01, 2024 10:19:30 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find CDP implementation matching 126
-Jun 24, 2024 9:33:31 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
-WARNING: Unable to find version of CDP to use for 126.0.6478.116. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.17.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+Jul 01, 2024 10:19:30 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 126.0.6478.127. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.17.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
 ]]></system-err>
   </testcase>
-  <testcase name="verifyTotalPriceWithoutTax" classname="com.saucedemo.testcases.OverviewPageTest" time="0.097">
+  <testcase name="verifyTotalPriceWithoutTax" classname="com.saucedemo.testcases.OverviewPageTest" time="0.08">
     <system-out><![CDATA[Browser is  Chrome
-the url ishttps://www.saucedemo.com/driver is ChromeDriver: chrome on windows (faf9109f7defe2260f46d771bfd56d9b)driver is hereChromeDriver: chrome on windows (faf9109f7defe2260f46d771bfd56d9b)driver is hereChromeDriver: chrome on windows (faf9109f7defe2260f46d771bfd56d9b)driver is hereChromeDriver: chrome on windows (faf9109f7defe2260f46d771bfd56d9b)driver is hereChromeDriver: chrome on windows (faf9109f7defe2260f46d771bfd56d9b)driver is hereChromeDriver: chrome on windows (faf9109f7defe2260f46d771bfd56d9b)driver is hereChromeDriver: chrome on windows (faf9109f7defe2260f46d771bfd56d9b)Displayed Sum is 17.98
+the url ishttps://www.saucedemo.com/driver is ChromeDriver: chrome on windows (eb5eef8ffb1336d0e500d13d9653ded5)driver is hereChromeDriver: chrome on windows (eb5eef8ffb1336d0e500d13d9653ded5)driver is hereChromeDriver: chrome on windows (eb5eef8ffb1336d0e500d13d9653ded5)driver is hereChromeDriver: chrome on windows (eb5eef8ffb1336d0e500d13d9653ded5)driver is hereChromeDriver: chrome on windows (eb5eef8ffb1336d0e500d13d9653ded5)driver is hereChromeDriver: chrome on windows (eb5eef8ffb1336d0e500d13d9653ded5)driver is hereChromeDriver: chrome on windows (eb5eef8ffb1336d0e500d13d9653ded5)Displayed Sum is 17.98
 Sum is 17.98
 ]]></system-out>
-    <system-err><![CDATA[Jun 24, 2024 9:33:35 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+    <system-err><![CDATA[Jul 01, 2024 10:19:36 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find CDP implementation matching 126
-Jun 24, 2024 9:33:35 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
-WARNING: Unable to find version of CDP to use for 126.0.6478.116. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.17.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+Jul 01, 2024 10:19:36 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 126.0.6478.127. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.17.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
 ]]></system-err>
   </testcase>
-  <testcase name="verifyTax" classname="com.saucedemo.testcases.OverviewPageTest" time="0.099">
+  <testcase name="verifyTax" classname="com.saucedemo.testcases.OverviewPageTest" time="0.13">
     <system-out><![CDATA[Browser is  Chrome
-the url ishttps://www.saucedemo.com/driver is ChromeDriver: chrome on windows (e6605d58b6230aff11261dfe1a39c9bc)driver is hereChromeDriver: chrome on windows (e6605d58b6230aff11261dfe1a39c9bc)driver is hereChromeDriver: chrome on windows (e6605d58b6230aff11261dfe1a39c9bc)driver is hereChromeDriver: chrome on windows (e6605d58b6230aff11261dfe1a39c9bc)driver is hereChromeDriver: chrome on windows (e6605d58b6230aff11261dfe1a39c9bc)driver is hereChromeDriver: chrome on windows (e6605d58b6230aff11261dfe1a39c9bc)driver is hereChromeDriver: chrome on windows (e6605d58b6230aff11261dfe1a39c9bc)Displayed tax is 1.44
+the url ishttps://www.saucedemo.com/driver is ChromeDriver: chrome on windows (6ba123724b12b70629bafb6b2ca4ba02)driver is hereChromeDriver: chrome on windows (6ba123724b12b70629bafb6b2ca4ba02)driver is hereChromeDriver: chrome on windows (6ba123724b12b70629bafb6b2ca4ba02)driver is hereChromeDriver: chrome on windows (6ba123724b12b70629bafb6b2ca4ba02)driver is hereChromeDriver: chrome on windows (6ba123724b12b70629bafb6b2ca4ba02)driver is hereChromeDriver: chrome on windows (6ba123724b12b70629bafb6b2ca4ba02)driver is hereChromeDriver: chrome on windows (6ba123724b12b70629bafb6b2ca4ba02)Displayed tax is 1.44
 Sum is 17.98
 calculated tax is 1.44
 ]]></system-out>
-    <system-err><![CDATA[Jun 24, 2024 9:33:40 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+    <system-err><![CDATA[Jul 01, 2024 10:19:41 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find CDP implementation matching 126
-Jun 24, 2024 9:33:40 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
-WARNING: Unable to find version of CDP to use for 126.0.6478.116. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.17.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+Jul 01, 2024 10:19:41 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 126.0.6478.127. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.17.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
 ]]></system-err>
   </testcase>
-  <testcase name="verifyFinalTotal" classname="com.saucedemo.testcases.OverviewPageTest" time="0.145">
+  <testcase name="verifyFinalTotal" classname="com.saucedemo.testcases.OverviewPageTest" time="0.129">
     <system-out><![CDATA[Browser is  Chrome
-the url ishttps://www.saucedemo.com/driver is ChromeDriver: chrome on windows (71a4717610fee690a5757f57fa736a2f)driver is hereChromeDriver: chrome on windows (71a4717610fee690a5757f57fa736a2f)driver is hereChromeDriver: chrome on windows (71a4717610fee690a5757f57fa736a2f)driver is hereChromeDriver: chrome on windows (71a4717610fee690a5757f57fa736a2f)driver is hereChromeDriver: chrome on windows (71a4717610fee690a5757f57fa736a2f)driver is hereChromeDriver: chrome on windows (71a4717610fee690a5757f57fa736a2f)driver is hereChromeDriver: chrome on windows (71a4717610fee690a5757f57fa736a2f)Displayed FinalTotal is 19.42
+the url ishttps://www.saucedemo.com/driver is ChromeDriver: chrome on windows (d4e1ffa1f83e29841ab2719976989602)driver is hereChromeDriver: chrome on windows (d4e1ffa1f83e29841ab2719976989602)driver is hereChromeDriver: chrome on windows (d4e1ffa1f83e29841ab2719976989602)driver is hereChromeDriver: chrome on windows (d4e1ffa1f83e29841ab2719976989602)driver is hereChromeDriver: chrome on windows (d4e1ffa1f83e29841ab2719976989602)driver is hereChromeDriver: chrome on windows (d4e1ffa1f83e29841ab2719976989602)driver is hereChromeDriver: chrome on windows (d4e1ffa1f83e29841ab2719976989602)Displayed FinalTotal is 19.42
 Sum is 17.98
 Sum is 17.98
 calculated tax is 1.44
 Final Total is 19.42
 ]]></system-out>
-    <system-err><![CDATA[Jun 24, 2024 9:33:45 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+    <system-err><![CDATA[Jul 01, 2024 10:19:45 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find CDP implementation matching 126
-Jun 24, 2024 9:33:45 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
-WARNING: Unable to find version of CDP to use for 126.0.6478.116. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.17.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+Jul 01, 2024 10:19:45 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 126.0.6478.127. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.17.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
 ]]></system-err>
   </testcase>
-  <testcase name="verifyClickingOnCancel" classname="com.saucedemo.testcases.OverviewPageTest" time="0.129">
+  <testcase name="verifyClickingOnCancel" classname="com.saucedemo.testcases.OverviewPageTest" time="0.125">
     <system-out><![CDATA[Browser is  Chrome
-the url ishttps://www.saucedemo.com/driver is ChromeDriver: chrome on windows (f8e27fe9a1f57ed4e9360d5a90acfca5)driver is hereChromeDriver: chrome on windows (f8e27fe9a1f57ed4e9360d5a90acfca5)driver is hereChromeDriver: chrome on windows (f8e27fe9a1f57ed4e9360d5a90acfca5)driver is hereChromeDriver: chrome on windows (f8e27fe9a1f57ed4e9360d5a90acfca5)driver is hereChromeDriver: chrome on windows (f8e27fe9a1f57ed4e9360d5a90acfca5)driver is hereChromeDriver: chrome on windows (f8e27fe9a1f57ed4e9360d5a90acfca5)driver is hereChromeDriver: chrome on windows (f8e27fe9a1f57ed4e9360d5a90acfca5)driver is hereChromeDriver: chrome on windows (f8e27fe9a1f57ed4e9360d5a90acfca5)]]></system-out>
-    <system-err><![CDATA[Jun 24, 2024 9:33:51 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+the url ishttps://www.saucedemo.com/driver is ChromeDriver: chrome on windows (8c49ffe8bbb56853717e261e655d3b2c)driver is hereChromeDriver: chrome on windows (8c49ffe8bbb56853717e261e655d3b2c)driver is hereChromeDriver: chrome on windows (8c49ffe8bbb56853717e261e655d3b2c)driver is hereChromeDriver: chrome on windows (8c49ffe8bbb56853717e261e655d3b2c)driver is hereChromeDriver: chrome on windows (8c49ffe8bbb56853717e261e655d3b2c)driver is hereChromeDriver: chrome on windows (8c49ffe8bbb56853717e261e655d3b2c)driver is hereChromeDriver: chrome on windows (8c49ffe8bbb56853717e261e655d3b2c)driver is hereChromeDriver: chrome on windows (8c49ffe8bbb56853717e261e655d3b2c)]]></system-out>
+    <system-err><![CDATA[Jul 01, 2024 10:19:50 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find CDP implementation matching 126
-Jun 24, 2024 9:33:51 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
-WARNING: Unable to find version of CDP to use for 126.0.6478.116. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.17.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+Jul 01, 2024 10:19:50 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 126.0.6478.127. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.17.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
 ]]></system-err>
   </testcase>
-  <testcase name="verifyClickingOnFinish" classname="com.saucedemo.testcases.OverviewPageTest" time="0.135">
+  <testcase name="verifyClickingOnFinish" classname="com.saucedemo.testcases.OverviewPageTest" time="0.143">
     <system-out><![CDATA[Browser is  Chrome
-the url ishttps://www.saucedemo.com/driver is ChromeDriver: chrome on windows (79d8d42ae90a9c55c67c6450ab2e1803)driver is hereChromeDriver: chrome on windows (79d8d42ae90a9c55c67c6450ab2e1803)driver is hereChromeDriver: chrome on windows (79d8d42ae90a9c55c67c6450ab2e1803)driver is hereChromeDriver: chrome on windows (79d8d42ae90a9c55c67c6450ab2e1803)driver is hereChromeDriver: chrome on windows (79d8d42ae90a9c55c67c6450ab2e1803)driver is hereChromeDriver: chrome on windows (79d8d42ae90a9c55c67c6450ab2e1803)driver is hereChromeDriver: chrome on windows (79d8d42ae90a9c55c67c6450ab2e1803)driver is hereChromeDriver: chrome on windows (79d8d42ae90a9c55c67c6450ab2e1803)]]></system-out>
-    <system-err><![CDATA[Jun 24, 2024 9:33:56 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+the url ishttps://www.saucedemo.com/driver is ChromeDriver: chrome on windows (00241e933bca9ca23dd846bb7b4125d4)driver is hereChromeDriver: chrome on windows (00241e933bca9ca23dd846bb7b4125d4)driver is hereChromeDriver: chrome on windows (00241e933bca9ca23dd846bb7b4125d4)driver is hereChromeDriver: chrome on windows (00241e933bca9ca23dd846bb7b4125d4)driver is hereChromeDriver: chrome on windows (00241e933bca9ca23dd846bb7b4125d4)driver is hereChromeDriver: chrome on windows (00241e933bca9ca23dd846bb7b4125d4)driver is hereChromeDriver: chrome on windows (00241e933bca9ca23dd846bb7b4125d4)driver is hereChromeDriver: chrome on windows (00241e933bca9ca23dd846bb7b4125d4)]]></system-out>
+    <system-err><![CDATA[Jul 01, 2024 10:19:54 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find CDP implementation matching 126
-Jun 24, 2024 9:33:56 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
-WARNING: Unable to find version of CDP to use for 126.0.6478.116. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.17.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+Jul 01, 2024 10:19:54 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 126.0.6478.127. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.17.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
 ]]></system-err>
   </testcase>
-  <testcase name="verifyOnFinalPage" classname="com.saucedemo.testcases.OrderCompletePageTest" time="0.037">
+  <testcase name="verifyOnFinalPage" classname="com.saucedemo.testcases.OrderCompletePageTest" time="0.04">
     <system-out><![CDATA[Browser is  Chrome
-the url ishttps://www.saucedemo.com/driver is ChromeDriver: chrome on windows (913ad97391a4bbfaa6f6454d6ac5356f)driver is hereChromeDriver: chrome on windows (913ad97391a4bbfaa6f6454d6ac5356f)driver is hereChromeDriver: chrome on windows (913ad97391a4bbfaa6f6454d6ac5356f)driver is hereChromeDriver: chrome on windows (913ad97391a4bbfaa6f6454d6ac5356f)driver is hereChromeDriver: chrome on windows (913ad97391a4bbfaa6f6454d6ac5356f)driver is hereChromeDriver: chrome on windows (913ad97391a4bbfaa6f6454d6ac5356f)driver is hereChromeDriver: chrome on windows (913ad97391a4bbfaa6f6454d6ac5356f)driver is hereChromeDriver: chrome on windows (913ad97391a4bbfaa6f6454d6ac5356f)]]></system-out>
-    <system-err><![CDATA[Jun 24, 2024 9:34:00 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+the url ishttps://www.saucedemo.com/driver is ChromeDriver: chrome on windows (41de4531d4bcdf506e1949d6ed91b219)driver is hereChromeDriver: chrome on windows (41de4531d4bcdf506e1949d6ed91b219)driver is hereChromeDriver: chrome on windows (41de4531d4bcdf506e1949d6ed91b219)driver is hereChromeDriver: chrome on windows (41de4531d4bcdf506e1949d6ed91b219)driver is hereChromeDriver: chrome on windows (41de4531d4bcdf506e1949d6ed91b219)driver is hereChromeDriver: chrome on windows (41de4531d4bcdf506e1949d6ed91b219)driver is hereChromeDriver: chrome on windows (41de4531d4bcdf506e1949d6ed91b219)driver is hereChromeDriver: chrome on windows (41de4531d4bcdf506e1949d6ed91b219)]]></system-out>
+    <system-err><![CDATA[Jul 01, 2024 10:19:58 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find CDP implementation matching 126
-Jun 24, 2024 9:34:00 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
-WARNING: Unable to find version of CDP to use for 126.0.6478.116. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.17.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+Jul 01, 2024 10:19:58 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 126.0.6478.127. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.17.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
 ]]></system-err>
   </testcase>
-  <testcase name="verifyClickingOnBackHome" classname="com.saucedemo.testcases.OrderCompletePageTest" time="0.153">
+  <testcase name="verifyClickingOnBackHome" classname="com.saucedemo.testcases.OrderCompletePageTest" time="0.128">
     <system-out><![CDATA[Browser is  Chrome
-the url ishttps://www.saucedemo.com/driver is ChromeDriver: chrome on windows (b83881dd19107b66886cd46dcbe0a05f)driver is hereChromeDriver: chrome on windows (b83881dd19107b66886cd46dcbe0a05f)driver is hereChromeDriver: chrome on windows (b83881dd19107b66886cd46dcbe0a05f)driver is hereChromeDriver: chrome on windows (b83881dd19107b66886cd46dcbe0a05f)driver is hereChromeDriver: chrome on windows (b83881dd19107b66886cd46dcbe0a05f)driver is hereChromeDriver: chrome on windows (b83881dd19107b66886cd46dcbe0a05f)driver is hereChromeDriver: chrome on windows (b83881dd19107b66886cd46dcbe0a05f)driver is hereChromeDriver: chrome on windows (b83881dd19107b66886cd46dcbe0a05f)driver is hereChromeDriver: chrome on windows (b83881dd19107b66886cd46dcbe0a05f)]]></system-out>
-    <system-err><![CDATA[Jun 24, 2024 9:34:04 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+the url ishttps://www.saucedemo.com/driver is ChromeDriver: chrome on windows (f10eee63bf371141634895302f866e9e)driver is hereChromeDriver: chrome on windows (f10eee63bf371141634895302f866e9e)driver is hereChromeDriver: chrome on windows (f10eee63bf371141634895302f866e9e)driver is hereChromeDriver: chrome on windows (f10eee63bf371141634895302f866e9e)driver is hereChromeDriver: chrome on windows (f10eee63bf371141634895302f866e9e)driver is hereChromeDriver: chrome on windows (f10eee63bf371141634895302f866e9e)driver is hereChromeDriver: chrome on windows (f10eee63bf371141634895302f866e9e)driver is hereChromeDriver: chrome on windows (f10eee63bf371141634895302f866e9e)driver is hereChromeDriver: chrome on windows (f10eee63bf371141634895302f866e9e)]]></system-out>
+    <system-err><![CDATA[Jul 01, 2024 10:20:02 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find CDP implementation matching 126
-Jun 24, 2024 9:34:04 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
-WARNING: Unable to find version of CDP to use for 126.0.6478.116. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.17.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+Jul 01, 2024 10:20:02 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 126.0.6478.127. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.17.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
 ]]></system-err>
   </testcase>
 </testsuite>

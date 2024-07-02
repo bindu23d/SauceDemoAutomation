@@ -25,7 +25,7 @@
       <span class="top-banner-title-font">Test results</span>
       <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
       <br/>
-      <span class="top-banner-font-1">1 suite</span>
+      <span class="top-banner-font-1">1 suite, 1 failed test</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -39,7 +39,7 @@
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
             <a href="#" panel-name="suite-SauceDemo_Automation_Suite" class="navigator-link">
-              <span class="suite-name border-passed">SauceDemo Automation Suite</span>
+              <span class="suite-name border-failed">SauceDemo Automation Suite</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -92,7 +92,21 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">29 methods,   29 passed</span>
+                    <span class="method-stats">29 methods, 1 failed,   28 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-SauceDemo_Automation_Suite" class="hide-methods failed suite-SauceDemo_Automation_Suite"> (hide)</a> <!-- hide-methods failed suite-SauceDemo_Automation_Suite -->
+                      <a href="#" panel-name="suite-SauceDemo_Automation_Suite" class="show-methods failed suite-SauceDemo_Automation_Suite"> (show)</a> <!-- show-methods failed suite-SauceDemo_Automation_Suite -->
+                    </span>
+                    <div class="method-list-content failed suite-SauceDemo_Automation_Suite">
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-SauceDemo_Automation_Suite" title="com.saucedemo.testcases.LoginPageTest" class="method navigator-link" hash-for-method="verifyInvaildLogin">verifyInvaildLogin</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-SauceDemo_Automation_Suite -->
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -169,11 +183,6 @@
                       <span>
                         <img src="passed.png" width="3%"/>
                         <a href="#" panel-name="suite-SauceDemo_Automation_Suite" title="com.saucedemo.testcases.OverviewPageTest" class="method navigator-link" hash-for-method="verifyFinalTotal">verifyFinalTotal</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-SauceDemo_Automation_Suite" title="com.saucedemo.testcases.LoginPageTest" class="method navigator-link" hash-for-method="verifyInvaildLogin">verifyInvaildLogin</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
@@ -258,9 +267,9 @@
     <div class="wrapper">
       <div class="main-panel-root">
         <div panel-name="suite-SauceDemo_Automation_Suite" class="panel SauceDemo_Automation_Suite">
-          <div class="suite-SauceDemo_Automation_Suite-class-passed">
+          <div class="suite-SauceDemo_Automation_Suite-class-failed">
             <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
+              <img src="failed.png"/>
               <span class="class-name">com.saucedemo.testcases.LoginPageTest</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
@@ -269,8 +278,21 @@
                   <a name="verifyInvaildLogin">
                   </a> <!-- verifyInvaildLogin -->
                   <span class="method-name">verifyInvaildLogin</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [false] but found [true]
+	at com.saucedemo.testcases.LoginPageTest.verifyInvaildLogin(LoginPageTest.java:49)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 38 stack frames
+</div> <!-- stack-trace -->
                 </div> <!-- method-content -->
               </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-SauceDemo_Automation_Suite-class-failed -->
+          <div class="suite-SauceDemo_Automation_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.saucedemo.testcases.LoginPageTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
                   <a name="verifyLogin">
@@ -582,124 +604,124 @@ data.addRows(29);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'verifyContinueCheckoutButton')
 data.setCell(0, 2, 'com.saucedemo.testcases.CheckoutPageTest')
-data.setCell(0, 3, 1296);
+data.setCell(0, 3, 1217);
 data.setCell(1, 0, 1)
 data.setCell(1, 1, 'verifyLogin')
 data.setCell(1, 2, 'com.saucedemo.testcases.LoginPageTest')
-data.setCell(1, 3, 977);
+data.setCell(1, 3, 812);
 data.setCell(2, 0, 2)
-data.setCell(2, 1, 'verifyInvaildLogin')
-data.setCell(2, 2, 'com.saucedemo.testcases.LoginPageTest')
-data.setCell(2, 3, 689);
+data.setCell(2, 1, 'verifyAddingTwoItems')
+data.setCell(2, 2, 'com.saucedemo.testcases.HomeProductsPageTest')
+data.setCell(2, 3, 520);
 data.setCell(3, 0, 3)
-data.setCell(3, 1, 'verifyAddingTwoItems')
-data.setCell(3, 2, 'com.saucedemo.testcases.HomeProductsPageTest')
-data.setCell(3, 3, 539);
+data.setCell(3, 1, 'verifyInvaildLogin')
+data.setCell(3, 2, 'com.saucedemo.testcases.LoginPageTest')
+data.setCell(3, 3, 485);
 data.setCell(4, 0, 4)
 data.setCell(4, 1, 'verifyAddToCart')
 data.setCell(4, 2, 'com.saucedemo.testcases.HomeProductsPageTest')
-data.setCell(4, 3, 440);
+data.setCell(4, 3, 339);
 data.setCell(5, 0, 5)
-data.setCell(5, 1, 'verifyNamesInDescendingOderDisplayed')
+data.setCell(5, 1, 'verifyPriceHighToLowDisplayed')
 data.setCell(5, 2, 'com.saucedemo.testcases.HomeProductsPageTest')
-data.setCell(5, 3, 393);
+data.setCell(5, 3, 334);
 data.setCell(6, 0, 6)
 data.setCell(6, 1, 'verifyPriceLowToHighDisplayed')
 data.setCell(6, 2, 'com.saucedemo.testcases.HomeProductsPageTest')
-data.setCell(6, 3, 388);
+data.setCell(6, 3, 307);
 data.setCell(7, 0, 7)
-data.setCell(7, 1, 'verifyPriceHighToLowDisplayed')
+data.setCell(7, 1, 'verifyNamesInDescendingOderDisplayed')
 data.setCell(7, 2, 'com.saucedemo.testcases.HomeProductsPageTest')
-data.setCell(7, 3, 349);
+data.setCell(7, 3, 276);
 data.setCell(8, 0, 8)
-data.setCell(8, 1, 'verifyCheckOutButton')
-data.setCell(8, 2, 'com.saucedemo.testcases.ShoppingCartPageTest')
-data.setCell(8, 3, 258);
+data.setCell(8, 1, 'verifyNamesInAscendingOderDisplayed')
+data.setCell(8, 2, 'com.saucedemo.testcases.HomeProductsPageTest')
+data.setCell(8, 3, 237);
 data.setCell(9, 0, 9)
 data.setCell(9, 1, 'verifyClickingOnCart')
 data.setCell(9, 2, 'com.saucedemo.testcases.HomeProductsPageTest')
-data.setCell(9, 3, 257);
+data.setCell(9, 3, 219);
 data.setCell(10, 0, 10)
-data.setCell(10, 1, 'verifyAddProductToCart')
-data.setCell(10, 2, 'com.saucedemo.testcases.ProductDetailPageTest')
-data.setCell(10, 3, 245);
+data.setCell(10, 1, 'verifyClickingOnProductLink')
+data.setCell(10, 2, 'com.saucedemo.testcases.HomeProductsPageTest')
+data.setCell(10, 3, 204);
 data.setCell(11, 0, 11)
-data.setCell(11, 1, 'verifyNamesInAscendingOderDisplayed')
-data.setCell(11, 2, 'com.saucedemo.testcases.HomeProductsPageTest')
-data.setCell(11, 3, 241);
+data.setCell(11, 1, 'verifyAddProductToCart')
+data.setCell(11, 2, 'com.saucedemo.testcases.ProductDetailPageTest')
+data.setCell(11, 3, 201);
 data.setCell(12, 0, 12)
-data.setCell(12, 1, 'verifyClickingOnProductLink')
-data.setCell(12, 2, 'com.saucedemo.testcases.HomeProductsPageTest')
-data.setCell(12, 3, 224);
+data.setCell(12, 1, 'verifyClickingOnCart')
+data.setCell(12, 2, 'com.saucedemo.testcases.ProductDetailPageTest')
+data.setCell(12, 3, 182);
 data.setCell(13, 0, 13)
-data.setCell(13, 1, 'verifyClickingOnCart')
-data.setCell(13, 2, 'com.saucedemo.testcases.ProductDetailPageTest')
-data.setCell(13, 3, 185);
+data.setCell(13, 1, 'verifyClickingOnFinish')
+data.setCell(13, 2, 'com.saucedemo.testcases.OverviewPageTest')
+data.setCell(13, 3, 143);
 data.setCell(14, 0, 14)
-data.setCell(14, 1, 'verifyClickingOnBackHome')
-data.setCell(14, 2, 'com.saucedemo.testcases.OrderCompletePageTest')
-data.setCell(14, 3, 155);
+data.setCell(14, 1, 'verifyContinueShoppingButton')
+data.setCell(14, 2, 'com.saucedemo.testcases.ShoppingCartPageTest')
+data.setCell(14, 3, 139);
 data.setCell(15, 0, 15)
-data.setCell(15, 1, 'verifyFinalTotal')
+data.setCell(15, 1, 'verifyTax')
 data.setCell(15, 2, 'com.saucedemo.testcases.OverviewPageTest')
-data.setCell(15, 3, 144);
+data.setCell(15, 3, 131);
 data.setCell(16, 0, 16)
-data.setCell(16, 1, 'verifyCancelButton')
-data.setCell(16, 2, 'com.saucedemo.testcases.CheckoutPageTest')
-data.setCell(16, 3, 137);
+data.setCell(16, 1, 'verifyFinalTotal')
+data.setCell(16, 2, 'com.saucedemo.testcases.OverviewPageTest')
+data.setCell(16, 3, 129);
 data.setCell(17, 0, 17)
-data.setCell(17, 1, 'verifyContinueShoppingButton')
+data.setCell(17, 1, 'verifyCheckOutButton')
 data.setCell(17, 2, 'com.saucedemo.testcases.ShoppingCartPageTest')
-data.setCell(17, 3, 135);
+data.setCell(17, 3, 128);
 data.setCell(18, 0, 18)
-data.setCell(18, 1, 'verifyClickingOnFinish')
-data.setCell(18, 2, 'com.saucedemo.testcases.OverviewPageTest')
-data.setCell(18, 3, 134);
+data.setCell(18, 1, 'verifyClickingOnBackHome')
+data.setCell(18, 2, 'com.saucedemo.testcases.OrderCompletePageTest')
+data.setCell(18, 3, 128);
 data.setCell(19, 0, 19)
 data.setCell(19, 1, 'verifyClickingOnCancel')
 data.setCell(19, 2, 'com.saucedemo.testcases.OverviewPageTest')
-data.setCell(19, 3, 130);
+data.setCell(19, 3, 124);
 data.setCell(20, 0, 20)
-data.setCell(20, 1, 'verifyTax')
-data.setCell(20, 2, 'com.saucedemo.testcases.OverviewPageTest')
-data.setCell(20, 3, 100);
+data.setCell(20, 1, 'verifyCancelButton')
+data.setCell(20, 2, 'com.saucedemo.testcases.CheckoutPageTest')
+data.setCell(20, 3, 112);
 data.setCell(21, 0, 21)
-data.setCell(21, 1, 'verifyTotalPriceWithoutTax')
-data.setCell(21, 2, 'com.saucedemo.testcases.OverviewPageTest')
-data.setCell(21, 3, 97);
+data.setCell(21, 1, 'verifyOnProductDetailsPage')
+data.setCell(21, 2, 'com.saucedemo.testcases.ProductDetailPageTest')
+data.setCell(21, 3, 83);
 data.setCell(22, 0, 22)
-data.setCell(22, 1, 'verifyOnHomeProductsPage')
-data.setCell(22, 2, 'com.saucedemo.testcases.HomeProductsPageTest')
-data.setCell(22, 3, 79);
+data.setCell(22, 1, 'verifyTotalPriceWithoutTax')
+data.setCell(22, 2, 'com.saucedemo.testcases.OverviewPageTest')
+data.setCell(22, 3, 80);
 data.setCell(23, 0, 23)
-data.setCell(23, 1, 'verifyOnProductDetailsPage')
-data.setCell(23, 2, 'com.saucedemo.testcases.ProductDetailPageTest')
-data.setCell(23, 3, 69);
+data.setCell(23, 1, 'verifyOnHomeProductsPage')
+data.setCell(23, 2, 'com.saucedemo.testcases.HomeProductsPageTest')
+data.setCell(23, 3, 72);
 data.setCell(24, 0, 24)
 data.setCell(24, 1, 'verifyOnShoppingCartPage')
 data.setCell(24, 2, 'com.saucedemo.testcases.ShoppingCartPageTest')
-data.setCell(24, 3, 47);
+data.setCell(24, 3, 60);
 data.setCell(25, 0, 25)
 data.setCell(25, 1, 'verifyOnOverviewPage')
 data.setCell(25, 2, 'com.saucedemo.testcases.OverviewPageTest')
-data.setCell(25, 3, 38);
+data.setCell(25, 3, 49);
 data.setCell(26, 0, 26)
-data.setCell(26, 1, 'verifyOnFinalPage')
-data.setCell(26, 2, 'com.saucedemo.testcases.OrderCompletePageTest')
-data.setCell(26, 3, 37);
+data.setCell(26, 1, 'verifyOnCheckoutPage')
+data.setCell(26, 2, 'com.saucedemo.testcases.CheckoutPageTest')
+data.setCell(26, 3, 43);
 data.setCell(27, 0, 27)
-data.setCell(27, 1, 'verifyOnCheckoutPage')
-data.setCell(27, 2, 'com.saucedemo.testcases.CheckoutPageTest')
-data.setCell(27, 3, 37);
+data.setCell(27, 1, 'verifyOnFinalPage')
+data.setCell(27, 2, 'com.saucedemo.testcases.OrderCompletePageTest')
+data.setCell(27, 3, 39);
 data.setCell(28, 0, 28)
 data.setCell(28, 1, 'verifyLoginPageTitle')
 data.setCell(28, 2, 'com.saucedemo.testcases.LoginPageTest')
-data.setCell(28, 3, 37);
+data.setCell(28, 3, 32);
 window.suiteTableData['SauceDemo_Automation_Suite']= { tableData: data, tableDiv: 'times-div-SauceDemo_Automation_Suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 7 seconds</span>
+              <span class="suite-total-time">Total running time: 6 seconds</span>
               <div id="times-div-SauceDemo_Automation_Suite">
               </div> <!-- times-div-SauceDemo_Automation_Suite -->
             </div> <!-- times-div -->
@@ -739,365 +761,367 @@ return data;
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">verifyLoginPageTitle</span>
-                <span class="method-start">8753 ms</span>
+                <span class="method-start">2093 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">8794 ms</span>
+                <span class="method-start">2127 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">navigateToLginPage</span>
-                <span class="method-start">9016 ms</span>
+                <span class="method-start">2324 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">verifyLogin</span>
-                <span class="method-start">12076 ms</span>
+                <span class="method-start">3937 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">13055 ms</span>
+                <span class="method-start">4750 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">navigateToLginPage</span>
-                <span class="method-start">13219 ms</span>
+                <span class="method-start">4904 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
+                <img src="failed.png">
+                </img>
                 <span class="method-name">verifyInvaildLogin</span>
-                <span class="method-start">15899 ms</span>
+                <span class="method-start">6397 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">16591 ms</span>
+                <span class="method-start">7050 ms</span>
               </div> <!-- configuration-method after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.saucedemo.testcases.HomeProductsPageTest</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
                 <span class="method-name">navigateToHomePage</span>
-                <span class="method-start">16752 ms</span>
+                <span class="method-start">7259 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">verifyOnHomeProductsPage</span>
-                <span class="method-start">19227 ms</span>
+                <span class="method-start">9213 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">19308 ms</span>
+                <span class="method-start">9286 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">navigateToHomePage</span>
-                <span class="method-start">19450 ms</span>
+                <span class="method-start">9475 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">verifyPriceLowToHighDisplayed</span>
-                <span class="method-start">22358 ms</span>
+                <span class="method-start">11617 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">22747 ms</span>
+                <span class="method-start">11924 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">navigateToHomePage</span>
-                <span class="method-start">22925 ms</span>
+                <span class="method-start">12156 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">verifyPriceHighToLowDisplayed</span>
-                <span class="method-start">25862 ms</span>
+                <span class="method-start">14051 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">26212 ms</span>
+                <span class="method-start">14385 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">navigateToHomePage</span>
-                <span class="method-start">26343 ms</span>
+                <span class="method-start">14602 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">verifyNamesInAscendingOderDisplayed</span>
-                <span class="method-start">29038 ms</span>
+                <span class="method-start">16628 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">29280 ms</span>
+                <span class="method-start">16866 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">navigateToHomePage</span>
-                <span class="method-start">29434 ms</span>
+                <span class="method-start">17058 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">verifyNamesInDescendingOderDisplayed</span>
-                <span class="method-start">32586 ms</span>
+                <span class="method-start">19269 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">32980 ms</span>
+                <span class="method-start">19546 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">navigateToHomePage</span>
-                <span class="method-start">33157 ms</span>
+                <span class="method-start">19741 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">verifyAddToCart</span>
-                <span class="method-start">36111 ms</span>
+                <span class="method-start">21867 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">36552 ms</span>
+                <span class="method-start">22206 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">navigateToHomePage</span>
-                <span class="method-start">36723 ms</span>
+                <span class="method-start">22404 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">verifyAddingTwoItems</span>
-                <span class="method-start">39417 ms</span>
+                <span class="method-start">25341 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">39956 ms</span>
+                <span class="method-start">25862 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">navigateToHomePage</span>
-                <span class="method-start">40185 ms</span>
+                <span class="method-start">26087 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">verifyClickingOnProductLink</span>
-                <span class="method-start">43930 ms</span>
+                <span class="method-start">28115 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">44155 ms</span>
+                <span class="method-start">28320 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">navigateToHomePage</span>
-                <span class="method-start">44319 ms</span>
+                <span class="method-start">28477 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">verifyClickingOnCart</span>
-                <span class="method-start">47428 ms</span>
+                <span class="method-start">30231 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">47686 ms</span>
+                <span class="method-start">30450 ms</span>
               </div> <!-- configuration-method after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.saucedemo.testcases.ProductDetailPageTest</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
                 <span class="method-name">navigateToProductDetailPage</span>
-                <span class="method-start">47850 ms</span>
+                <span class="method-start">30657 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">verifyOnProductDetailsPage</span>
-                <span class="method-start">51273 ms</span>
+                <span class="method-start">32790 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">51342 ms</span>
+                <span class="method-start">32874 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">navigateToProductDetailPage</span>
-                <span class="method-start">51508 ms</span>
+                <span class="method-start">33102 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">verifyAddProductToCart</span>
-                <span class="method-start">54120 ms</span>
+                <span class="method-start">35725 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">54365 ms</span>
+                <span class="method-start">35926 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">navigateToProductDetailPage</span>
-                <span class="method-start">54514 ms</span>
+                <span class="method-start">36149 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">verifyClickingOnCart</span>
-                <span class="method-start">58216 ms</span>
+                <span class="method-start">38495 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">58402 ms</span>
+                <span class="method-start">38677 ms</span>
               </div> <!-- configuration-method after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.saucedemo.testcases.ShoppingCartPageTest</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
                 <span class="method-name">navigateToCart</span>
-                <span class="method-start">58529 ms</span>
+                <span class="method-start">38963 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">verifyOnShoppingCartPage</span>
-                <span class="method-start">62122 ms</span>
+                <span class="method-start">41789 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">62169 ms</span>
+                <span class="method-start">41850 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">navigateToCart</span>
-                <span class="method-start">62355 ms</span>
+                <span class="method-start">42219 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">verifyCheckOutButton</span>
-                <span class="method-start">65614 ms</span>
+                <span class="method-start">45304 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">65872 ms</span>
+                <span class="method-start">45433 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">navigateToCart</span>
-                <span class="method-start">66035 ms</span>
+                <span class="method-start">45727 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">verifyContinueShoppingButton</span>
-                <span class="method-start">70120 ms</span>
+                <span class="method-start">48910 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">70256 ms</span>
+                <span class="method-start">49049 ms</span>
               </div> <!-- configuration-method after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.saucedemo.testcases.CheckoutPageTest</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
                 <span class="method-name">navigateToCheckout</span>
-                <span class="method-start">70488 ms</span>
+                <span class="method-start">49300 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">verifyOnCheckoutPage</span>
-                <span class="method-start">74034 ms</span>
+                <span class="method-start">52659 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">74071 ms</span>
+                <span class="method-start">52703 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">navigateToCheckout</span>
-                <span class="method-start">74267 ms</span>
+                <span class="method-start">52934 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">verifyCancelButton</span>
-                <span class="method-start">77079 ms</span>
+                <span class="method-start">55792 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">77216 ms</span>
+                <span class="method-start">55906 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">navigateToCheckout</span>
-                <span class="method-start">77529 ms</span>
+                <span class="method-start">56175 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">verifyContinueCheckoutButton</span>
-                <span class="method-start">81527 ms</span>
+                <span class="method-start">59195 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">82823 ms</span>
+                <span class="method-start">60413 ms</span>
               </div> <!-- configuration-method after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.saucedemo.testcases.OverviewPageTest</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
                 <span class="method-name">navigateToOverview</span>
-                <span class="method-start">83014 ms</span>
+                <span class="method-start">60826 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">verifyOnOverviewPage</span>
-                <span class="method-start">86614 ms</span>
+                <span class="method-start">65076 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">86653 ms</span>
+                <span class="method-start">65126 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">navigateToOverview</span>
-                <span class="method-start">86885 ms</span>
+                <span class="method-start">65293 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">verifyTotalPriceWithoutTax</span>
-                <span class="method-start">91300 ms</span>
+                <span class="method-start">70276 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">91398 ms</span>
+                <span class="method-start">70357 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">navigateToOverview</span>
-                <span class="method-start">91618 ms</span>
+                <span class="method-start">71004 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">verifyTax</span>
-                <span class="method-start">95333 ms</span>
+                <span class="method-start">75530 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">95433 ms</span>
+                <span class="method-start">75661 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">navigateToOverview</span>
-                <span class="method-start">95611 ms</span>
+                <span class="method-start">76025 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">verifyFinalTotal</span>
-                <span class="method-start">100520 ms</span>
+                <span class="method-start">79632 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">100664 ms</span>
+                <span class="method-start">79761 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">navigateToOverview</span>
-                <span class="method-start">100861 ms</span>
+                <span class="method-start">80080 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">verifyClickingOnCancel</span>
-                <span class="method-start">107020 ms</span>
+                <span class="method-start">83947 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">107150 ms</span>
+                <span class="method-start">84071 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">navigateToOverview</span>
-                <span class="method-start">107336 ms</span>
+                <span class="method-start">84343 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">verifyClickingOnFinish</span>
-                <span class="method-start">111603 ms</span>
+                <span class="method-start">87916 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">111737 ms</span>
+                <span class="method-start">88059 ms</span>
               </div> <!-- configuration-method after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.saucedemo.testcases.OrderCompletePageTest</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
                 <span class="method-name">navigateToFinalPage</span>
-                <span class="method-start">111915 ms</span>
+                <span class="method-start">88239 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">verifyOnFinalPage</span>
-                <span class="method-start">115214 ms</span>
+                <span class="method-start">92083 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">115252 ms</span>
+                <span class="method-start">92123 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">navigateToFinalPage</span>
-                <span class="method-start">115455 ms</span>
+                <span class="method-start">92312 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">verifyClickingOnBackHome</span>
-                <span class="method-start">119547 ms</span>
+                <span class="method-start">96120 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">119702 ms</span>
+                <span class="method-start">96248 ms</span>
               </div> <!-- configuration-method after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
