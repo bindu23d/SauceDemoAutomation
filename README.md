@@ -24,37 +24,13 @@ Used Page Object Model and data driven TestNG Framework.
 * POM.xml file to include all dependancies (Selenium WebDriver, TestNG,Extent Report, POI and surefire plugins)
 * Use of TestNG listener for generating test report
 
-### Installing
+## Installing
 
-* How/where to download your program
-* Any modifications needed to be made to files/folders
+* Open Eclipse
+* Click File> Import
+* In the Import Window, click Projects from Git (with smart import) and click Next
+* In the Select Repository Source Window, click Clone URI
+* Give URI , Host, Repository path
+* Step through the wizard and click Finish
 
-### Executing program
 
-* How to run the program
-* Step-by-step bullets
-```
-code blocks for commands
-```
-
-## Help
-
-Any advise for common problems or issues.
-```
-command to run if program contains helper info
-```
-
-## Authors
-
-Contributors names and contact info
-
-ex. Dominique Pizzie  
-ex. [@DomPizzie](https://twitter.com/dompizzie)
-
-## Version History
-
-* 0.2
-    * Various bug fixes and optimizations
-    * See [commit change]() or See [release history]()
-* 0.1
-    * Initial Release
