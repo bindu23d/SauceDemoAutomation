@@ -17,7 +17,7 @@ import org.openqa.selenium.ie.InternetExplorerDriver;
 import org.openqa.selenium.io.FileHandler;
 
 public class Base {
-	private static Properties prop;
+	public static Properties prop;
 
 	public static ThreadLocal<WebDriver> tlDriver=new ThreadLocal<>();
 
